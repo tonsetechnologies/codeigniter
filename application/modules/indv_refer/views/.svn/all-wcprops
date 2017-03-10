@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views
+END
+ehr_refer_select_details_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_refer_select_details_html.php
+END
+ehr_indv_refer_out2server_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_indv_refer_out2server_done_html.php
+END
+ehr_indv_refer_email_draft_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_indv_refer_email_draft_html.php
+END
+ehr_print_referral_letter_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_print_referral_letter_html.php
+END
+ehr_indv_refer_patient_existence_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_indv_refer_patient_existence_html.php
+END
+ehr_refer_import_review_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_refer_import_review_html.php
+END
+ehr_indv_edit_refer_out_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_indv_edit_refer_out_html.php
+END
+ehr_refer_export_detailsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_refer_export_detailsdone_html.php
+END
+ehr_indv_refer_out2server_confirm_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_indv_refer_out2server_confirm_html.php
+END
+ehr_indv_refer_email_sent_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_indv_refer_email_sent_html.php
+END
+ehr_indv_list_referral_out_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_indv_list_referral_out_html.php
+END
+ehr_print_referral_letter_PH_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/indv_refer/views/ehr_print_referral_letter_PH_html.php
+END

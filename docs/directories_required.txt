@@ -1,0 +1,13 @@
+Directories Required
+
+It is easiest to copy the directory tree from /var/www/thirra/uploads to /var/www/thirra-uploads
+
+This list could be outdated.
+
+/var/www/synch-THIRRA/in
+/var/www/synch-THIRRA/out
+/var/www/thirra-uploads/patient_pics
+/var/www/thirra-uploads/case_pics
+
+
+

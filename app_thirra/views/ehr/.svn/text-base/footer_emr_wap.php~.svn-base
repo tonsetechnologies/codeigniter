@@ -1,0 +1,8 @@
+<?php
+echo "\n\n<div id='footer'>";
+	echo "\n<hr />";
+	echo "<p><div align='center'>A PANACeA project</div></p>";
+echo "</div>"; // id=footer
+
+echo "</div>"; // id=page
+echo "</body></html>";

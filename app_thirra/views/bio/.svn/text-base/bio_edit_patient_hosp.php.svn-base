@@ -1,0 +1,342 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Initial Developer of the Original Code is
+ * Primary Care Doctors Organisation Malaysia.
+ * Portions created by the Initial Developer are Copyright (C) 2009
+ * the Initial Developer and IDRC. All Rights Reserved.
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+$ideal_field_length = 25;
+
+echo "\n<div align='center'><h1>THIRRA - Add New / Edit Patient</h1></div>";
+if($debug_mode) {
+    echo "\n<div class='debug'>";
+    print "\n<br />form_purpose = " . $form_purpose;
+    print "\n<br />now_id = " . $now_id;
+    print "\n<br />patient_id = " . $patient_id;
+    print "\n<br />init_contact_id = " . $init_contact_id;
+    print "\n<br />Session info = " . $_SESSION['thirra_mode'];
+    print "\n<br />location = " . $_SESSION['location_id'];
+    print "\n<br />User = " . $_SESSION['username'];
+	echo '<pre>';
+    echo "\n<br />print_r(patient_info)=<br />";
+		print_r($patient_info);
+    echo "\n<br />print_r(village_info)=<br />";
+		print_r($village_info);
+	echo '</pre>';
+    echo "\n</div>";
+} //endif debug_mode
+
+//echo validation_errors(); Displays ALL errors in one place.
+echo "\n<br /><h1>".$save_attempt."</h1>";
+echo form_open('bio_hospital/edit_patient/'.$form_purpose.'/'.$patient_id);
+
+echo "\n<fieldset>";
+echo "<legend>BIO DATA</legend>";
+echo "\n<table>";
+echo "\n<tr><td width='150'>Clinic Ref.</td><td>";
+echo form_error('clinic_reference_number');
+echo "\n<input type='text' name='clinic_reference_number' value='".set_value('clinic_reference_number',$init_clinic_reference_number)."' size='20' /></td></tr>";
+
+echo "\n<tr><td>Last Name  <font color='red'>*</font></td><td>";
+echo form_error('patient_name');
+echo "<input type='text' name='patient_name' value='".set_value('patient_name',$init_patient_name)."' size='50' /></td></tr>";
+
+echo "\n<tr><td>First Name</td><td>";
+echo form_error('name_first');
+echo "<input type='text' name='name_first' value='".set_value('name_first',$init_name_first)."' size='50' /></td></tr>";
+
+echo "\n<tr><td>Alias</td><td>";
+echo form_error('name_alias');
+echo "<input type='text' name='name_alias' value='".set_value('name_alias',$init_name_alias)."' size='50' /></td></tr>";
+
+echo "\n<tr><td>IC No.</td><td>";
+echo form_error('ic_no');
+echo "<input type='text' name='ic_no' value='".set_value('ic_no',$init_ic_no)."' size='12' /> </td></tr>";
+
+echo "\n<tr><td>Other IC No.</td><td>";
+echo form_error('ic_other_no');
+echo "<input type='text' name='ic_other_no' value='".set_value('ic_other_no',$init_ic_other_no)."' size='12' /> </td></tr>";
+
+echo "\n<tr><td>Sex  <font color='red'>*</font></td><td>";
+echo form_error('gender');
+    /*
+    echo "\n<select name='gender'>";
+    if($init_gender == NULL){echo "\n<option value=''>Please select one</option>";}
+    echo "\n<option value='Male'".($init_gender=='Male  '?' selected=\'selected\'':'').">Male</option>";
+    echo "\n<option value='Female'".($init_gender=='Female'?' selected=\'selected\'':'').">Female</option>";
+    echo "\n</select>";
+    */
+echo "\n<input type='radio' name='gender' value='Male' ".set_radio('gender','Male',($init_gender=='Male  '?TRUE:FALSE))." >Male</input>";
+echo "\n<input type='radio' name='gender' value='Female' ".set_radio('gender','Female',($init_gender=='Female'?TRUE:FALSE))." >Female</input>";
+echo "\n</td></tr>";
+
+echo "\n<tr><td>Age, or</td><td>";
+echo form_error('age');
+echo "<input type='text' name='age' value='".set_value('age',$init_age)."' size='5'  id='age' /> years old</td></tr>\n";
+
+echo "\n<tr><td>Birth Date</td><td>";
+echo form_error('birth_date');
+echo "\n<input type='text' name='birth_date' value='".set_value('birth_date',$init_birth_date)."' size='10' id='birth_date'  onChange='calculateAge();' /> YYYY-MM-DD ";
+echo "\n<input type='checkbox' name='birth_date_estimate'  value='TRUE' ".($init_birth_date_estimate==TRUE ? " checked='checked'" : " ")." id='estimate_age' onChange='toggle_age();'/> Estimated birth date";
+echo "</td></tr>";
+
+echo "</tr></table>";
+echo "\n</fieldset>";
+
+echo "\n<fieldset>";
+echo "<legend>GUARDIAN INFO, FOR PAEDIATRICS PATIENT</legend>";
+echo "<table>";
+echo "\n<tr><td>Guardian's name</td><td>";
+echo form_error('guardian_name');
+echo "<input type='text' name='guardian_name' value='".set_value('guardian_name',$init_guardian_name)."' size='50' /> </td></tr>";
+
+echo "\n<tr><td>Guardian's relation</td><td>";
+echo form_error('guardian_relation');
+    echo "\n<select name='guardian_relation'>";
+    if($init_guardian_relation == NULL){echo "\n<option value=''>Please select one</option>";}
+    echo "\n<option value='Father'".($init_guardian_relation=='Father'?' selected=\'selected\'':'').">Father</option>";
+    echo "\n<option value='Mother'".($init_guardian_relation=='Mother'?' selected=\'selected\'':'').">Mother</option>";
+    echo "\n<option value='Grandfather'".($init_guardian_relation=='Grandfather'?' selected=\'selected\'':'').">Grandfather</option>";
+    echo "\n<option value='Grandmother'".($init_guardian_relation=='Grandmother'?' selected=\'selected\'':'').">Grandmother</option>";
+    echo "\n<option value='Sibling'".($init_guardian_relation=='Sibling'?' selected=\'selected\'':'').">Sibling</option>";
+    echo "\n<option value='Foster Father'".($init_guardian_relation=='Foster Father'?' selected=\'selected\'':'').">Foster Father</option>";
+    echo "\n<option value='Foster Mother'".($init_guardian_relation=='Foster Mother'?' selected=\'selected\'':'').">Foster Mother</option>";
+    echo "\n<option value='Uncle'".($init_guardian_relation=='Uncle'?' selected=\'selected\'':'').">Uncle</option>";
+    echo "\n<option value='Aunt'".($init_guardian_relation=='Aunt'?' selected=\'selected\'':'').">Aunt</option>";
+    echo "\n<option value='Other'".($init_guardian_relation=='Other'?' selected=\'selected\'':'').">Other</option>";
+    echo "\n</select>";
+echo "</td></tr>\n";
+
+echo "</tr></table>";
+echo "\n</fieldset>";
+
+echo "\n<fieldset>";
+echo "<legend>CONTACT INFO</legend>";
+echo "<table>";
+echo "\n<tr><td width='150'>Address</td><td>";
+echo form_error('patient_address');
+echo "<input type='text' name='patient_address' value='".set_value('patient_address',$init_patient_address)."' size='50' /></td></tr>\n";
+
+echo "\n<tr><td>&nbsp;</td><td>";
+echo form_error('patient_address2');
+echo "<input type='text' name='patient_address2' value='".set_value('patient_address2',$init_patient_address2)."' size='50' /></td></tr>\n";
+
+echo "\n<tr><td>&nbsp;</td><td>";
+echo form_error('patient_address3');
+echo "<input type='text' name='patient_address3' value='".set_value('patient_address3',$init_patient_address3)."' size='50' /></td></tr>\n";
+
+echo "\n<tr><td>Post Code</td><td>";
+echo form_error('patient_postcode');
+echo "<input type='text' name='patient_postcode' value='".set_value('patient_postcode',$init_patient_postcode)."' size='10' /></td></tr>\n";
+
+echo "\n<tr>";
+    echo "\n<td>Village, Town, Area <font color='red'>*</font></td>";
+    echo "<td colspan='2' class='red'>";   
+    echo "\n<select name='addr_village_id' class='normal' onchange='javascript:selectLabPackage()' id='addr_village_id'>";
+    //echo "\n<select name='diagnosisChapter' class='normal' onChange='javascript:selectDiagnosisCategory()'>";
+        echo "\n<option label='' value='0' selected='selected'></option>";
+        foreach($addr_village_list as $addr_village)
+        {
+            $repeat_space = $ideal_field_length - strlen($addr_village['addr_village_name']);
+            if($repeat_space < 1){
+                $repeat_space = 0;
+            }
+            echo "\n<option value='".rtrim($addr_village['addr_village_id'])."'";
+            echo ($init_addr_village_id == rtrim($addr_village['addr_village_id']) ? " selected='selected'" : "");
+            echo " class='monosp'>".$addr_village['addr_village_name'];
+            echo str_repeat("&nbsp;",$repeat_space);
+            echo $addr_village['addr_town_name']." , ".$addr_village['addr_area_name']."</option>";
+        }
+        echo "</select>";
+    echo "</td>";
+echo "</tr>";
+
+echo "\n<tr><td>Town</td><td>";
+echo form_error('patient_town');
+echo "<input type='text' name='patient_town' value='".set_value('patient_town',$init_patient_town)."' size='30' disabled='disabled' /></td></tr>\n";
+
+echo "\n<tr><td>PHI Area</td><td>";
+echo $init_patient_area;
+echo "</td></tr>\n";
+
+echo "\n<tr><td>MOH Area</td><td>";
+echo $init_patient_district;
+echo "</td></tr>\n";
+
+//echo "\n<tr><td>State</td><td>";
+echo "\n<tr><td>District</td><td>";
+echo form_error('patient_state');
+echo "<input type='text' name='patient_state' value='".set_value('patient_state',$init_patient_state)."' size='30' disabled='disabled' /></td></tr>\n";
+
+echo "\n<tr><td>Country</td><td>";
+echo form_error('patient_country');
+echo "<input type='text' name='patient_country' value='".set_value('patient_country',$init_patient_country)."' size='30' disabled='disabled' /></td></tr>\n";
+
+/*
+echo "\n<tr><td>Town</td><td>";
+echo form_error('patient_town');
+echo "<input type='text' name='patient_town' value='".set_value('patient_town',$init_patient_town)."' size='30' /></td></tr>\n";
+
+echo "\n<tr><td>State</td><td>";
+echo form_error('patient_state');
+echo "<input type='text' name='patient_state' value='".set_value('patient_state',$init_patient_state)."' size='30' /></td></tr>\n";
+
+echo "\n<tr><td>Country</td><td>";
+echo form_error('patient_country');
+echo "<input type='text' name='patient_country' value='".set_value('patient_country',$init_patient_country)."' size='30' /></td></tr>\n";
+*/
+echo "\n<tr><td>Tel. Home</td><td>";
+echo form_error('tel_home');
+echo "<input type='text' name='tel_home' value='".set_value('tel_home',$init_tel_home)."' size='30' />";
+
+echo "\n<tr><td>Tel. Office</td><td>";
+echo form_error('tel_office');
+echo "<input type='text' name='tel_office' value='".set_value('tel_office',$init_tel_office)."' size='30' />";
+
+echo "\n<tr><td>Tel. Mobile</td><td>";
+echo form_error('tel_mobile');
+echo "<input type='text' name='tel_mobile' value='".set_value('tel_mobile',$init_tel_mobile)."' size='30' />";
+
+echo "\n<tr><td>e-mail</td><td>";
+echo form_error('email');
+echo "<input type='text' name='email' value='".set_value('email',$init_email)."' size='30' />";
+
+echo "\n<tr><td>&nbsp;</td></tr>";
+echo "</tr></table>";
+echo "\n</fieldset>";
+
+echo "\n<fieldset>";
+echo "<legend>PERSONAL INFO</legend>";
+echo "<table>";
+echo "\n<tr><td width='150'>Marital Status</td><td>";
+echo form_error('marital_status');
+    echo "\n<select name='marital_status'>";
+    if($init_marital_status == NULL){echo "\n<option value=''>Please select one</option>";}
+    echo "\n<option value='Single'".($init_marital_status=='Single'?' selected=\'selected\'':'').">Single</option>";
+    echo "\n<option value='Married'".($init_marital_status=='Married'?' selected=\'selected\'':'').">Married</option>";
+    echo "\n<option value='Divorced'".($init_marital_status=='Divorced'?' selected=\'selected\'':'').">Divorced</option>";
+    echo "\n<option value='Widowed'".($init_marital_status=='Widowed'?' selected=\'selected\'':'').">Widowed</option>";
+    echo "\n<option value='Others'".($init_marital_status=='Others'?' selected=\'selected\'':'').">Others</option>";
+    echo "\n</select>";
+echo "</td></tr>\n";
+
+echo "\n<tr><td>Citizen of</td><td>";
+echo form_error('nationality');
+echo "<input type='text' name='nationality' value='".set_value('nationality',$init_nationality)."' size='30' /> </td></tr>";
+
+echo "\n<tr><td>Ethnicity</td><td>";
+echo form_error('ethnicity');
+echo "<input type='text' name='ethnicity' value='".set_value('ethnicity',$init_ethnicity)."' size='30' /> </td></tr>";
+
+echo "\n<tr><td>Religion</td><td>";
+echo form_error('religion');
+echo "<input type='text' name='religion' value='".set_value('religion',$init_religion)."' size='30' /> </td></tr>";
+
+echo "\n<tr><td>Patient Type</td><td>";
+echo form_error('patient_type');
+echo "<input type='text' name='patient_type' value='".set_value('patient_type',$init_patient_type)."' size='30' /> </td></tr>";
+
+echo "\n<tr><td>Blood Group</td><td>";
+echo form_error('blood_group');
+    echo "\n<select name='blood_group'>";
+    if($init_blood_group == NULL){
+        echo "\n<option value=''>Please select one</option>";
+    }
+    echo "\n<option value='O'".($init_blood_group=='O'?' selected=\'selected\'':'').">O</option>";
+    echo "\n<option value='A'".($init_blood_group=='A'?' selected=\'selected\'':'').">A</option>";
+    echo "\n<option value='B'".($init_blood_group=='B'?' selected=\'selected\'':'').">B</option>";
+    echo "\n<option value='AB'".($init_blood_group=='AB'?' selected=\'selected\'':'').">AB</option>";
+    echo "\n</select>";
+
+echo "\nBlood Rhesus ";
+echo form_error('blood_rhesus');
+    echo "\n<select name='blood_rhesus'>";
+    if($init_blood_rhesus == NULL){echo "\n<option value=''>Please select one</option>";}
+    echo "\n<option value='Positive'".($init_blood_rhesus=='Positive'?' selected=\'selected\'':'').">Positive</option>";
+    echo "\n<option value='Negative'".($init_blood_rhesus=='Negative'?' selected=\'selected\'':'').">Negative</option>";
+    echo "\n</select>";
+echo "</td></tr>\n";
+
+echo "\n<tr><td>&nbsp;</td></tr>";
+echo "</tr></table>";
+echo "\n</fieldset>";
+
+echo "\n<fieldset>";
+echo "<legend>DEMISED PATIENT</legend>";
+echo "<table>";
+echo "\n<tr><td width='150'>Demise Date</td><td>";
+echo form_error('demise_date');
+echo "<input type='text' name='demise_date' value='".set_value('demise_date',$init_demise_date)."' size='10' /> YYYY-MM-DD</td></tr>";
+
+echo "\n<tr><td>Demise Time</td><td>";
+echo form_error('demise_time');
+echo "<input type='text' name='demise_time' value='".set_value('demise_time',$init_demise_time)."' size='10' /> hh:mm</td></tr>";
+
+echo "\n<tr><td>Demise Cause</td><td>";
+echo form_error('demise_cause');
+echo "<input type='text' name='demise_cause' value='".set_value('demise_cause',$init_demise_cause)."' size='80' /></td></tr>";
+
+echo "</td></tr>\n";
+echo "</table>";
+
+echo "\n</fieldset>";
+echo form_hidden('now_id', $now_id);
+echo form_hidden('patient_id', $init_patient_id);
+echo form_hidden('contact_id', $init_contact_id);
+echo form_hidden('location_id', $init_location_id);
+
+echo "\n<div align='center'><br /><input type='submit' value='Add/Edit Patient' /></div>";
+
+echo "\n</form>";
+
+echo "\n<br /><p>";
+echo "\nIf Patient Demographic is correct, you may proceed to fill ";
+echo anchor('bio_hospital/edit_notify544/new_notify/'.$init_patient_id, 'New Form 544');
+echo "</p>\n";
+?>
+    <script  type="text/javascript">
+        var $ = function (id) {
+            return document.getElementById(id);
+        }
+
+      function calculateAge()
+      {
+         if ($("birth_date").value == '')
+            $("age").value = '';
+         else
+         {
+            var birth_date = Number($("birth_date").value);
+            var age_years = birth_date * 0.3937008;
+            $("age").value = age_years;
+         }
+      }
+
+    function toggle_age() {
+        if ($("estimate_age").value == 'TRUE') {
+            alert("Toggle On "+$("estimate_age").value);
+        } else {
+            alert("Toggle Off "+$("estimate_age").value);
+        }
+    }
+
+
+    window.onload = function() {
+        $("estimate_age").onChange = toggle_age;
+        $("birth_date").onChange = calculateAge;
+    }
+  </script>
+

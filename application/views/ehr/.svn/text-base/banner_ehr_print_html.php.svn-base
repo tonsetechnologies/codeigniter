@@ -1,0 +1,62 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Initial Developer of the Original Code is
+ * Primary Care Doctors Organisation Malaysia.
+ * Portions created by the Initial Developer are Copyright (C) 2009 - 2011
+ * the Initial Developer and IDRC. All Rights Reserved.
+ *
+ * Contributor(s):
+ *   Jason Tan Boon Teck <tanboonteck@gmail.com> (original author)
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+echo "\n<body class='print'>";
+echo "<div id='page'>";
+
+echo "\n<div id='banner' align='center'>";
+echo "\n<table>";
+echo "\n<tr>";
+    echo "\n<td>";
+    echo "<h3 class='print'>".$clinic_info['clinic_name']." (".$clinic_info['clinic_ref_no'].")</h3>";
+    echo "\n</td>";
+echo "\n</tr>";
+if(!empty($clinic_info['address']) || !empty($clinic_info['address2'])){
+    echo "\n<tr>";
+        echo "\n<td>";
+        echo $clinic_info['address'].", ".$clinic_info['address2'];
+        echo "\n</td>";
+    echo "\n</tr>";
+}
+echo "\n<tr>";
+    echo "\n<td>";
+    if(!empty($clinic_info['address3'])){
+        echo $clinic_info['address3'].", ";
+    }
+    if(!empty($clinic_info['town'])){
+        echo $clinic_info['town'].", ";
+    }
+    echo $clinic_info['postcode']." ".$clinic_info['state'];
+    echo "\n</td>";
+echo "\n</tr>";
+echo "\n<tr>";
+    echo "\n<td>Tel No.: ";
+    echo $clinic_info['tel_no'];
+    echo " &nbsp;&nbsp;&nbsp; Fax No.: ";
+    echo $clinic_info['fax_no'];
+    echo "\n</td>";
+echo "\n</tr>";
+echo "\n</table>";
+
+echo "</div>"; // id=banner

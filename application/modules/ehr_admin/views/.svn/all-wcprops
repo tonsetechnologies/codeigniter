@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/thirra/!svn/ver/248/trunk/thirra/application/modules/ehr_admin/views
+END
+ehr_admin_export_new_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_patients_html.php
+END
+ehr_admin_import_new_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_historyimmunisation_html.php
+END
+ehr_admin_export_new_antenatalinfo_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_antenatalinfo_done_html.php
+END
+ehr_admin_list_synchlogs_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_list_synchlogs_html.php
+END
+ehr_admin_import_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_antenataldelivery_html.php
+END
+ehr_admin_edit_referral_centre_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/248/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_edit_referral_centre_html.php
+END
+ehr_admin_reset_synchflagsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_reset_synchflagsdone_html.php
+END
+ehr_admin_export_new_logins_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_logins_done_html.php
+END
+ehr_admin_list_depts_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_list_depts_html.php
+END
+ehr_admin_import_new_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_antenatalcheckup_html.php
+END
+ehr_admin_import_new_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_antenataldelivery_html.php
+END
+ehr_admin_import_new_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_episodes_html.php
+END
+ehr_admin_list_referral_centres_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_list_referral_centres_html.php
+END
+ehr_admin_import_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_patients_html.php
+END
+ehr_admin_export_new_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_antenatalcheckup_html.php
+END
+ehr_admin_export_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_antenatalinfo_html.php
+END
+ehr_admin_export_new_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_episodes_html.php
+END
+ehr_admin_list_open_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_list_open_episodes_html.php
+END
+ehr_admin_export_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_patients_html.php
+END
+ehr_admin_export_new_antenatalcheckup_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_antenatalcheckup_done_html.php
+END
+ehr_admin_export_new_antenataldelivery_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_antenataldelivery_done_html.php
+END
+ehr_admin_import_refer_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_refer_html.php
+END
+ehr_admin_edit_referral_person_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_edit_referral_person_html.php
+END
+ehr_admin_export_new_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_antenatalinfo_html.php
+END
+ehr_admin_import_new_logins_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_logins_html.php
+END
+ehr_admin_export_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_historyimmunisation_html.php
+END
+ehr_admin_import_new_patientsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_patientsdone_html.php
+END
+ehr_admin_list_systemusers_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/244/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_list_systemusers_html.php
+END
+ehr_admin_reset_synchflags_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_reset_synchflags_html.php
+END
+ehr_admin_list_staffcategories_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/244/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_list_staffcategories_html.php
+END
+ehr_admin_import_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_antenatalcheckup_html.php
+END
+ehr_admin_import_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_episodes_html.php
+END
+ehr_admin_edit_staff_category_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/244/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_edit_staff_category_html.php
+END
+ehr_admin_import_new_refer_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_refer_html.php
+END
+ehr_admin_export_new_patientsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_patientsdone_html.php
+END
+ehr_admin_export_new_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_historyimmunisation_html.php
+END
+ehr_admin_export_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_antenatalcheckup_html.php
+END
+ehr_admin_export_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_antenataldelivery_html.php
+END
+ehr_admin_export_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_episodes_html.php
+END
+ehr_admin_import_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_antenatalinfo_html.php
+END
+ehr_admin_export_new_historyimmunisation_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_historyimmunisation_done_html.php
+END
+ehr_admin_list_clinics_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/thirra/!svn/ver/244/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_list_clinics_html.php
+END
+ehr_admin_edit_clinic_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/244/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_edit_clinic_info_html.php
+END
+ehr_admin_edit_clinic_dept_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_edit_clinic_dept_html.php
+END
+ehr_admin_import_logins_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_logins_html.php
+END
+ehr_admin_export_new_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_antenataldelivery_html.php
+END
+ehr_admin_import_new_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_antenatalinfo_html.php
+END
+ehr_admin_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_mgt_html.php
+END
+ehr_admin_import_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_historyimmunisation_html.php
+END
+ehr_admin_edit_systemuser_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/242/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_edit_systemuser_html.php
+END
+ehr_admin_import_new_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_import_new_patients_html.php
+END
+ehr_admin_export_new_episodesdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_new_episodesdone_html.php
+END
+ehr_admin_export_logins_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_admin/views/ehr_admin_export_logins_html.php
+END

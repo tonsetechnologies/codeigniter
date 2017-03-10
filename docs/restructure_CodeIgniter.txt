@@ -1,0 +1,13 @@
+Steps to move Application directory into its own to upgrade CodeIgniter easier.
+
+1. Install CodeIgniter into docroot
+2. Rename CodeIgniter directory to 'thirra'
+3. Create directory 'codeigniter' inside 'thirra'
+4. Move 'system' directory into 'codeigniter' directory
+5. Extract app_thirra into 'thirra'
+6. Change the following variables inside thirra/index.php
+
+	$system_folder = "codeigniter/system";
+	$application_folder = "app_thirra";
+
+

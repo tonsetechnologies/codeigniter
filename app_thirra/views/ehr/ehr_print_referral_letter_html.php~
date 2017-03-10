@@ -1,0 +1,140 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Initial Developer of the Original Code is
+ * Primary Care Doctors Organisation Malaysia.
+ * Portions created by the Initial Developer are Copyright (C) 2009
+ * the Initial Developer and IDRC. All Rights Reserved.
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+echo "\n\n<div id='print_content'>";
+if($debug_mode) {
+    echo "\n<div class='debug'>";
+    print "Session info = " . $_SESSION['thirra_mode'];
+    print "<br />User = " . $_SESSION['username'];
+	echo '<pre>';
+    echo "\n<br />print_r(patient_info)=<br />";
+		print_r($patient_info);
+    echo "\n<br />print_r(patcon_info)=<br />";
+		print_r($patcon_info);
+    echo "\n<br />print_r(referrals_list)=<br />";
+		print_r($referrals_list);
+	echo '</pre>';
+    echo "\n</div>";
+}
+
+echo "\n\n<div id='page_title' align='center'><h1>".$this->lang->line('past_con_details_html_title')."</h1></div>";
+
+echo "\n<p>";
+
+echo "\n<table>";
+echo "\n<tr>";
+	echo '<td>';
+		echo 'Patient\'s Name';
+	echo '</td>';
+	echo '<td>';
+        echo "<h3>".$patient_info['name'].", ".$patient_info['name_first']."</h3>";
+	echo '</td>';
+echo '</tr>';
+echo "\n<tr>";
+	echo '<td>';
+		echo 'Date of Birth / Sex';
+	echo '</td>';
+	echo '<td>';
+        echo $patient_info['birth_date']." / ".$patient_info['gender'];
+	echo '</td>';
+echo '</tr>';
+echo "\n<tr>";
+	echo '<td>';
+		echo 'Session started';
+	echo '</td>';
+	echo '<td>';
+        echo $patcon_info['date_started']." at ".$patcon_info['time_started'];
+	echo '</td>';
+echo '</tr>';
+echo "\n<tr>";
+	echo '<td>';
+		echo 'Session ended';
+	echo '</td>';
+	echo '<td>';
+        echo $patcon_info['date_ended']." at ".$patcon_info['time_ended'];
+	echo '</td>';
+echo '</tr>';
+echo "\n<tr>";
+	echo '<td>';
+		echo 'Consultant';
+	echo '</td>';
+	echo '<td>';
+        echo $patcon_info['signed_name'];
+	echo '</td>';
+echo '</tr>';
+echo "\n<tr>";
+	echo '<td>';
+        echo "\nAdditional Notes to Consultation";
+	echo '</td>';
+	echo '<td>';
+        echo $patcon_info['summary'];
+	echo '</td>';
+echo '</tr>';
+echo "\n<tr>";
+	echo '<td>';
+		echo 'External Reference';
+	echo '</td>';
+	echo '<td>';
+        echo $patcon_info['external_ref'];
+	echo '</td>';
+echo '</tr>';
+
+echo '</table>';
+echo "\n</p>";
+
+
+echo "\n\n<div id='referral' class='episodeblock'>";
+    echo "<div class='block_title'>REFERRAL</div>";
+    echo "\n<table>";
+    echo "\n<tr>";
+        echo "\n<th width='200'>Referral Person</th>";
+        echo "\n<th width='100'>Specialty</th>";
+        echo "\n<th width='250'>Referral Centre</th>";
+        echo "\n<th>Referral Date</th>";
+        echo "\n<th>Referral Reason</th>";
+    echo "</tr>";
+    foreach ($referrals_list as $referral_item){
+        echo "<tr>";
+        echo "<td>".$referral_item['doctor_name']."</td>";
+        //echo "<td>".anchor('ehr_patient/edit_referral/edit_referral/'.$patient_id.'/'.$summary_id.'/'.$referral_item['referral_id'], $referral_item['doctor_name'])."</td>";
+        echo "<td>".$referral_item['specialty']."</td>";
+        //echo "<td>".$referral_item['referral_center_name']."</td>";
+        echo "<td>".$referral_item['name']."</td>";
+        echo "<td>".$referral_item['referral_date']."</td>";
+        echo "<td>".$referral_item['reason']."</td>";
+        echo "</tr>";
+    }//endforeach;
+    echo "</table>";
+echo "</div>"; //id='referral'
+
+echo "\n<br />Prepared by:";
+echo "<br /><br /><br /><br /><br />";
+echo "\n__________________<br />";
+echo "\nPrepared by:";
+
+echo "\n\n<div id='response' class='episodeblock'>";
+    echo "<div class='block_title'>REFERRAL CENTRE'S REPLY</div>";
+    echo "<br /><br /><br /><br /><br />";
+echo "</div>"; //id='response'
+
+echo "</div>"; //id='content'
+
+echo "</div>"; //id=body

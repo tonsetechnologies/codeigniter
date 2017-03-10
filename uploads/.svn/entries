@@ -1,0 +1,110 @@
+9
+
+dir
+251
+https://thirra.svn.sourceforge.net/svnroot/thirra/trunk/thirra/uploads
+https://thirra.svn.sourceforge.net/svnroot/thirra
+
+
+
+2011-03-16T14:55:07.079618Z
+174
+jasontn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+24e1ba0c-de5d-4729-9ed5-f8a2b56cb0c0
+
+imports_refer
+dir
+
+imports_patient
+dir
+
+patient_pics
+dir
+
+imports_antenatal
+dir
+
+exports_history
+dir
+
+exports_refer
+dir
+
+exports_patient
+dir
+
+case_pics
+dir
+
+exports_antenatal
+dir
+
+imports_archive
+dir
+
+imports_system
+dir
+
+imports_consult
+dir
+
+exports_archive
+dir
+
+exports_system
+dir
+
+index.html
+file
+
+
+
+
+2011-04-13T04:15:18.000000Z
+0227cfd904e99656279202032b98d4a7
+2011-01-27T08:19:22.859433Z
+156
+jasontn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114
+
+exports_consult
+dir
+
+imports_history
+dir
+

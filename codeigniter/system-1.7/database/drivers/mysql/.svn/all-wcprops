@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/235/trunk/thirra/codeigniter/system-1.7/database/drivers/mysql
+END
+mysql_driver.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/235/trunk/thirra/codeigniter/system-1.7/database/drivers/mysql/mysql_driver.php
+END
+mysql_result.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/235/trunk/thirra/codeigniter/system-1.7/database/drivers/mysql/mysql_result.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/235/trunk/thirra/codeigniter/system-1.7/database/drivers/mysql/index.html
+END
+mysql_forge.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/235/trunk/thirra/codeigniter/system-1.7/database/drivers/mysql/mysql_forge.php
+END
+mysql_utility.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/235/trunk/thirra/codeigniter/system-1.7/database/drivers/mysql/mysql_utility.php
+END

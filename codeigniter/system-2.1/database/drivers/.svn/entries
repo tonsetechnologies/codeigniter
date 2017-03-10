@@ -1,0 +1,92 @@
+9
+
+dir
+251
+https://thirra.svn.sourceforge.net/svnroot/thirra/trunk/thirra/codeigniter/system-2.1/database/drivers
+https://thirra.svn.sourceforge.net/svnroot/thirra
+
+
+
+2011-11-16T04:43:32.003811Z
+235
+jasontn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+24e1ba0c-de5d-4729-9ed5-f8a2b56cb0c0
+
+mssql
+dir
+
+sqlite
+dir
+
+oci8
+dir
+
+pdo
+dir
+
+postgre
+dir
+
+mysql
+dir
+
+odbc
+dir
+
+cubrid
+dir
+
+sqlsrv
+dir
+
+index.html
+file
+
+
+
+
+2011-11-16T04:52:28.000000Z
+0227cfd904e99656279202032b98d4a7
+2011-11-16T04:43:32.003811Z
+235
+jasontn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114
+
+mysqli
+dir
+

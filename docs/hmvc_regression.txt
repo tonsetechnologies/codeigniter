@@ -1,0 +1,29 @@
+Regression errors of HMVC:
+
+- data sync of Admin section - referrals
+- Overview Sheet's CSS
+- breadcrumbs
+- Individual Antenatal -new fields
+- Remove fk3 for antenatal_delivery
+- Drug supplier invoices
+
+Fixed
+
+- autocomplete of diagnosis
+- external referral in individual
+- sending e-mail notification
+- specific hardcopies
+- GEM
+- PDF output
+
+
+Bug fixes
+
+- Age is estimated was not saved
+- Immunisation exports shows immunisation date correctly
+
+New features
+
+- Posts birth date to new registration for new births
+- Refer post partum problems to physician warning
+

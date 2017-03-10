@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/thirra/!svn/ver/248/trunk/thirra/application/modules/ehr_ajax/views
+END
+ajax_update_clinic_staff.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/242/trunk/thirra/application/modules/ehr_ajax/views/ajax_update_clinic_staff.php
+END
+ajax_update_kin_details.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_update_kin_details.php
+END
+ajax_get_formulary_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_formulary_info.php
+END
+ajax_get_address_areanames.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_address_areanames.php
+END
+ajax_update_consultation_summary.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/248/trunk/thirra/application/modules/ehr_ajax/views/ajax_update_consultation_summary.php
+END
+ajax_get_prescription_drugtradenames.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/244/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_prescription_drugtradenames.php
+END
+ajax_get_address_statenames.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_address_statenames.php
+END
+ajax_get_diagnosis_diagnosiscode.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_diagnosis_diagnosiscode.php
+END
+ajax_get_address_villagenames.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_address_villagenames.php
+END
+ajax_get_address_districtnames.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_address_districtnames.php
+END
+ajax_get_diagnosis_diagnosiscategory.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_diagnosis_diagnosiscategory.php
+END
+ajax_get_address_townnames.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_address_townnames.php
+END
+ajax_get_atc_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_atc_info.php
+END
+ajax_get_indvoverview_medication.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_indvoverview_medication.php
+END
+ajax_get_prescription_druggenericnames.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/thirra/!svn/ver/244/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_prescription_druggenericnames.php
+END
+ajax_get_indvoverview_immunisation.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/modules/ehr_ajax/views/ajax_get_indvoverview_immunisation.php
+END

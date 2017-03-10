@@ -1,0 +1,418 @@
+/********************************************************************
+* Description: User style sheet for THIRRA
+* Author:      Jason Tan Boon Teck
+********************************************************************/
+
+/* the styles for the body tag */
+    body{
+        /* Alternative colour
+	    background-color:#feeeee;
+        */
+    }
+
+    body.html{
+        /* Alternative colour
+	    background-color:#de91ee;
+	    background-color:#cddeff;
+	    background-color:#feeeee;
+	    font-size:1.0em;
+        */
+	    background-color:#efdbfb;
+    }
+
+    body.ovrvw{
+        /* Alternative colour
+	    background-color:#feeeee;
+	    font-size:1.2em;
+        */
+	    background-color:#cfdfff;
+    }
+
+    body.print{
+    }
+
+    body.conslt{
+        /* Alternative colour
+	    background-color:#feeeee;
+	    font-size:1.2em;
+        */
+    }
+
+    body.doc_open{
+    }
+
+    body.doc_closed{
+    }
+
+    body.hosp{
+        /* Alternative colour
+	    background-color:#feeeee;
+	    font-size:1.2em;
+        */
+    }
+
+    body.dept{
+        /* Alternative colour
+	    background-color:#feeeee;
+	    font-size:1.2em;
+        */
+    }
+
+    fieldset {
+    }
+
+    legend {
+        /* Alternative colour
+	    background-color:#feeeee;
+	    font-size:1.2em;
+        */
+    }
+
+
+/* the styles for the div tags that divide the page into sections */
+    #banner{
+
+    }
+
+    #banner a {
+	    text-decoration: none;
+    }
+
+    #banner a:hover {
+	    text-decoration:none;
+	    color:#dd0000;
+    }
+     
+    #banner h1 {
+	    text-decoration: bold;
+	    font-size:1.6em;
+	    /*color: #ffff00;*/
+    }
+
+    #banner_table{
+        padding:0px;
+        height:auto;
+        border-bottom: 1px solid gray;
+     }
+
+    #patientinfo{
+        /* Alternative colour
+	    font-size:0.8em;
+	    color: #ffffff;
+        */
+    }
+
+    #breadcrumbs{
+        /* Alternative colour
+	    font-size:0.8em;
+	    color: #ffffff;
+        */
+    }
+
+    #sidebar_gone{
+        /* Alternative colour
+	    font-size:0.8em;
+        */
+    }
+
+
+    #sidebar{
+        /* Alternative colour
+	    font-size:0.9em;
+	    background-color: #FFFFFF;
+        */
+    }
+
+
+    #content_nosidebar{
+    }
+
+    #content{
+    }
+
+    #print_content{
+    }
+
+     #main{
+     }
+
+     #header{
+        font-size:12px;
+     }
+     
+    #footer{
+        font-size:0.6em;
+    }
+
+/* the styles for the global XHTML elements */
+    h1 {
+        /* Alternative colour
+	    font-size:1.5em;
+        margin-top:0.5em;
+        margin-bottom:0.5em;
+	    color:#090970;
+        */
+    }
+
+    h2{
+        /* Alternative colour
+	    font-size:1.3em;
+        margin-top:0.5em;
+        margin-bottom:0.5em;
+	    color:#090970;
+        */
+    }
+
+    h3{
+        /* Alternative colour
+	    font-size:1.1em;
+	    color:#090970;
+        */
+    }
+
+    h4{
+        /* Alternative colour
+	    margin-top:0px;
+	    margin-bottom:0px;
+	    font-size:0.9em;
+	    color:#090970;
+        */
+    }
+
+    p,li,td{
+        /* Alternative colour
+	    font-size:1.0em;
+        */
+    }
+
+    div.error{
+    }
+
+    a,a:link{
+    }
+
+    a:hover{
+    }
+
+     
+    table.line {
+    }
+
+    table.tablebg_blue td{
+    }
+
+    table.valigntop td{
+    }
+
+    table.print {
+    }
+
+    table.print td{
+    }
+
+    table.figure {
+    }
+
+    table.figure td{
+    }
+
+    td.banner {
+    }
+
+    td.banner_button_enabled {
+    }
+
+    td.banner_button_disabled {
+    }
+
+    td.print_label {
+    }
+
+    td.print_labelS {
+    }
+
+    td.print_data {
+    }
+
+    td.print_dataL {
+    }
+
+    td.print_border_TopRightBottonLeft {
+    }
+
+    td.print_border_trBottoml {
+    }
+
+    td.print_border_trbl {
+    }
+
+    td.print_border_trbl {
+    }
+
+    h1.print {
+    }
+
+    h2.print{
+    }
+
+    h3.print{
+    }
+
+    h4.print{
+    }
+
+    option.monosp {
+    }
+
+
+    #nav{
+    }
+
+    #nav ul{
+    }
+
+    #nav ul li.cat{
+    }
+
+    #nav ul li.subcat{
+    }
+
+    #nav li.cat a {
+    }
+
+    #nav li.subcat a {
+    }
+
+		
+    #nav li.subcat a:hover {
+    }
+
+    #nav li.cat a:hover {
+    }
+     
+
+     
+    .section{
+        /* Alternative colour
+        background-color:#fcfcff;
+        */
+
+    }
+
+
+    .sidebar_l1{
+        /* Alternative colour
+	    font-size:0.85em;
+	    background-color: #FFFFFF;
+        */
+    }
+
+
+    .overviewcard{
+        /* Alternative colour
+	    font-size:0.9em;
+        background-color:#fffcfc;
+        */
+    }
+
+    .overviewcard > table{
+        /* Alternative colour
+        background-color:#fffcfc;
+        */
+    }
+
+    .overviewblock{
+    /*	This box to be deprecated
+        top: 10px; */
+        /* Alternative colour
+	    font-size:0.9em;
+        background-color:#fffcfc;
+        */
+    }
+
+    .episodeblock{
+        /* Alternative colour
+	    font-size:0.9em;
+        background-color:#fcfffc;
+        */
+    }
+
+    .block_title{
+        /* Alternative colour
+	    font-size:0.9em;
+        background-color:#fcfffc;
+        */
+    }
+
+    .block_title_green{
+        /* Alternative colour
+	    font-size:1.1em;
+	    background-color: #9ae89a;
+        */
+    }
+
+    .block_title_ovv{
+        /* Alternative colour
+	    font-size:1.2em;
+	    background-color: BurlyWood;
+        */
+        background-color:#b0c0fc;
+    }
+
+    .simple_button_yellow{
+        /* Alternative colour
+	    font-size:1.1em;
+        margin-left:5px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    text-decoration:none;
+        border: 8px;
+        border-style: outset;
+	    background-color: Gold;
+	    color: silver;    
+        */
+    }
+
+    .flashdata{
+        /* Alternative colour
+	    background-color: yellow;
+	    color: red;    
+        */
+    }
+
+    .validation_errors{
+        /* Alternative colour
+	    background-color: red;
+	    color: yellow;    
+        */
+    }
+
+    .debug{
+    }
+
+    .chart{
+    }
+
+    .chart_height_low{
+    }
+
+    .chart_height_high{
+    }
+
+    .chart_width_narrow{
+    }
+
+    .chart_width_broad{
+    }
+
+     .message{
+     }
+
+    .banner_hover{
+        /* Alternative colour
+	    background-color: white;
+	    color: black;    
+        */
+    }
+
+

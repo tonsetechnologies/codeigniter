@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/thirra/!svn/ver/251/trunk/thirra/application/views/ehr
+END
+header_xhtml1-transitional.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/header_xhtml1-transitional.php
+END
+banner_ehr_ovrvw_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/251/trunk/thirra/application/views/ehr/banner_ehr_ovrvw_html.php
+END
+header_xhtml1-strict.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/header_xhtml1-strict.php
+END
+ehr_access_denied_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/ehr_access_denied_html.php
+END
+sidebar_ehr_patients_consltNoLink_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/sidebar_ehr_patients_consltNoLink_html.php
+END
+banner_ehr_print_noletterhead_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/banner_ehr_print_noletterhead_html.php
+END
+banner_ehr_print_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/banner_ehr_print_html.php
+END
+sidebar_ehr_patients_ovrvw_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/251/trunk/thirra/application/views/ehr/sidebar_ehr_patients_ovrvw_html.php
+END
+ehr_indv_refer_email_sent_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/ehr_indv_refer_email_sent_html.php
+END
+banner_ehr_conslt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/banner_ehr_conslt_html.php
+END
+header_xhtml-mobile10.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/header_xhtml-mobile10.php
+END
+banner_ehr_ovrvw_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/banner_ehr_ovrvw_wap.php
+END
+footer_ehr_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/242/trunk/thirra/application/views/ehr/footer_ehr_html.php
+END
+sidebar_ehr_patients_ovrvwNoLink_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/sidebar_ehr_patients_ovrvwNoLink_html.php
+END
+sidebar_ehr_patients_conslt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/249/trunk/thirra/application/views/ehr/sidebar_ehr_patients_conslt_html.php
+END
+footer_emr_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/240/trunk/thirra/application/views/ehr/footer_emr_html.php
+END
+banner_ehr_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/251/trunk/thirra/application/views/ehr/banner_ehr_html.php
+END

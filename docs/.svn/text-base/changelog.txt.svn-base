@@ -1,0 +1,1004 @@
+THIRRA 
+Changelog
+
+Version 5.0.0a Build 251
+ - Added Problem List
+ - Added filter list of consultants in Add/Edit Patient Queue
+ - Added page refresh timer to dasboard and Overview Sheet.
+ - Bug fix to edit report template body.
+ - Bug fix to update past procedures.
+ 
+Version 5.0.0 Build 250
+ - Tagged as Release Version.
+
+Version 0.9.15 Build 249
+ - Reduced margins for episode blocks in Progress Sheet
+ - Added Procedure Codes management.
+ - Added Procedure Supplier management.
+ - Going to Version 5.0.0
+
+Version 0.9.15 Build 248
+ - Upgraded database schema for future development and full release.
+ - Added Dry Run option to debug Clinical Consultation.
+ - Added Procedure Orders to consultation.
+ - Added Past Procedures to Patient Overview Sheet.
+ - Added Subjective, Objective, Assessment, Plan (SOAP) notes to Progress Sheet.
+ - Added Provisional to diagnosis type.
+ - Upgraded MPDF to version 5.4  http://www.mpdf1.com/mpdf/   
+ - Note - Change $protection = 4294963392; to 192 in mpdf.php for Evince backwards compatibility.
+ - Refactored memr_rdb.php model file.
+ - Refactored some controller files to load write models only when necessary.
+ - Update Consultation Details Report to include procedure orders and SOAP.
+ - Bug fix for List Family Cluster.
+ - Bug fix of report template for Immunisations Done.
+ - Bug fix for Lab Order in consultation.
+
+Version 0.9.14 Build 246-247
+ - Added Search ICD-10 and Search Generic Name to Progress Sheet.
+ - Added Save to database, to Progress Sheet.
+
+Version 0.9.14 Build 245
+ - Moved complaints code in pull down to the right, in Complaints form.
+ - Added search diagnosis box in Progress Sheet
+
+Version 0.9.14 Build 244
+ - Add list of consultants to edit queue form filtered to current clinic only.
+ - Added flag to staff categories to allow/disallow clinical consulting.
+ - Added list of staff to Add/edit clinic form.
+ - Restricted available staff to respective clinics for Add/edit Referral Person form.
+ - Allow clinic to dispense medicine. However, no inventory control is implemented. Dispensable drugs are in DRUG_PRODUCT.
+ - Made drugs catalogue to filter by clinic.
+
+Version 0.9.14 Build 242-243
+ - Change Access Control List structure into more granular sections. Added CRUD rights for each section.
+ - ACL is determined at Staff Category level and not per user level.
+ - Added infrastructure for modular widgets, panels and menus.
+ - Installing new modules entails copy directories, and updating the ACL records.
+ - Added Set Appointments in Overview Section. Can only edit current clinic's appointments.
+ - Added list of existing appointments to Add/Edit Queue form.
+ - Users can only access clinics that they are authorised for, whether one or more.
+
+Version 0.9.13 Build 241
+ - Installed Modular Extensions to make THIRRA use HMVC, in order to make the application modular.
+ - Added Posts birth date to new registration for new births
+ - Added Refer post partum problems to physician warning in progress sheet
+ - Bug Fix. Age is estimated was not saved
+ - Bug Fix. Immunisation exports shows immunisation date incorrectly
+
+Version 0.9.12 Build 239
+ - Bug fix. Incorrect portrait thumbnail was displayed in adding to patient queue.
+
+Version 0.9.12 Build 238
+ - Bug fix. Patient_id for estimated birth dates incorrectly created.
+
+Version 0.9.12 Build 237
+ - Bug fix. Patient_id not correctly created in some cases.
+ - Bug fix. Isset notice for lab package form captured.
+
+Version 0.9.12 Build 236
+ - Bug fix. Added dummy antenatal_helper.php to new version of CI.
+
+Version 0.9.12 Build 235
+ - Upgraded framework to CodeIgniter version 2.1.0
+ - Added consultant's name to referral e-mail notice.
+
+Version 0.9.12 Build 234
+ - Fine tuned Referral Letters and Referral Out form.
+ - Added option to print Referral Letters for different countries, e.g. Philippines.
+ - Moved Print Referral Letter method out of ehr_consult.php into ehr_individual_refer.php controller.
+ - Added Minor to list of relationships.
+ - Updated Tagalog language file.
+
+Version 0.9.12 Build 233
+ - Added PDF output for Referral Letters.
+ - Fine tuned e-mail notification of Referral Letters.
+
+Version 0.9.12 Build 232
+ - Added e-mail to Referral Centre using SMTP provided by Gmail. Not able to attach file to e-mail yet.
+ - Widen width of date input, wrongly set at 8 characters in various forms.
+
+Version 0.9.12 Build 231
+ - Added Occupation field to Patient Demographic Info.
+ - Added AJAX box to update spouse details within Antenatal Info, if spouse is inside the database. 
+   No form validation done.
+ - Added linkage to child for Antenatal Delivery.
+ - Disabled new referral information from dashboard since it is not ready for prime time.
+
+Version 0.9.12 Build 230
+ - Added linkage to spouse's Patient Record, inside Antenatal Info.
+ - Refactored query for Patients List.
+ - Stabilising Remote Referral without changing existing schema.
+
+Version 0.9.12 Build 229
+ - Regression bug fixes.
+ - Turned off Incoming Referrals on the Dashboard until the next version.
+
+Version 0.9.12 Build 228
+ - Added Education Level, Next-of-kin, NHFA No. and PNS Patient No. to Patient Demographic Info.
+ - Ajaxified geographical addresses in Patient Demographic Info.
+ - Added Add New Vital Signs History reading.
+ - Fixed a render chart for vitals signs bug, that stopped it from displaying.
+ - Made Geographical Locations more user friendly by displaying subsets.
+ - Added Add/Edit States geographical locations.
+ - Made villages as the mandatory smallest unit. Hence creation of dummy villages were made easier.
+ - Referral System still WIP.
+
+Version 0.9.12 Build 227
+ - Removed explanatory note in version.txt that caused regression to XML exports.
+ - Started work on sending referral info to remote servers using curl. No change to schema yet. WIP.
+ - Allowed patients's Head of Family to be swapped.
+ - Added list of family members to link child to Antenatal Delivery History.
+
+Version 0.9.12 Build 226
+ - Rerrange THIRRA's block inside config.php
+ - Added adding referral replies inside individual patient records section.
+ - Added curl-1.2.0 from Codeigniter's Sparks library.
+
+Version 0.9.12 Build 225
+ - Added headers to Medication History in Overview Sheet.
+ - Added HTML5's autocomplete attribute to password field of login page.
+ - Made EHR has higher precedent than Biosurveillance in mobile profile login page.
+
+Version 0.9.12 Build 224
+ - Fixed incorrect banners for Antenatal History for mobile profile.
+ - Trimmed numeric inputs for Login Page, Search Patient, Edit Patients, Vital Signs forms.
+ - Updated Access Control for mobile profile's Dashboard.
+ - Activated full calendars for mobile profile.
+ - Added Appointments to Overview Sheet.
+ - Fixed null baby weight antenatal delivery bug and added 'Not applicable' to delivery type.
+ - Updated sidebar view includes in individual antenatal controller. 
+ - Highlighted 'Urgent' priority in patient queue to red.
+ - Added morders_rdb.php and mantenatal_rdb models.
+ - Refactoring - Moved the following methods out of memr_rdb.php:
+   - get_addr_village_list
+   - get_addr_area_list
+   - get_postconsultation_queue
+   - get_patients_queue
+   - get_clinics_list
+   - get_one_staffcategory
+   - get_staff_categories
+   - get_systemuser_categories
+   - get_one_systemuser
+   - get_users_list
+   - get_dept_info
+   - get_depts_list
+   - get_room_categories
+   - get_one_room
+   - get_rooms_list
+   - get_staff_list
+   - get_supplier_list_lab
+   - get_lab_packages_bysupplier
+   - get_loinc_class_lab
+   - get_loinc
+   - get_supplier_list_imag
+   - get_imag_product_bysupplier
+   - get_loinc_class_imag
+   - get_referral_centres
+   - get_referral_persons
+   - get_one_referral_person (deleted)
+   - get_dcode_chapters
+   - get_dcode1_by_chapter
+   - get_dcode1ext_by_dcode1
+   - get_dcode2ext_by_dcode1ext
+   - get_drug_system
+   - get_formulary_by_system
+   - get_formulary_by_vaccine
+   - get_tradename_by_formulary
+   - get_formulary_list
+   - get_one_drug_formulary
+   - get_common_formulary
+   - get_list_labresult
+   - get_list_imaging_result
+   - get_lab_package_ordered
+   - get_imag_product_ordered
+   - get_last_gravida
+   - get_antenatal_postpartum
+
+Version 0.9.12 Build 223
+ - Fixed incorrect CSS file loaded for List Modules in Patient records.
+ - Added links to block titles in Overview Sheet and Progress Sheet.
+ - Added A-Z links to patients list to mobile profile's Dashboard.
+
+Version 0.9.12 Build 222
+ - Hid Antenatal blocks in Progress Sheet for underaged girls.
+ - Added z-index to ensure breadcrumbs are clickable.
+ - Spanned Past Consultations list in Overview Sheet to 2 columns.
+ - Added user_A_style.css to header files to customise format of display.
+ - Added pre-diagnostic observations to Overview Sheet and Clinical Report.
+
+Version 0.9.12 Build 221
+ - Fine tuned headers and sections displayed.
+ - Rearanged some blocks in Overview Sheet.
+ - Rearranged sidebars for Broadband and Narrowband versions.
+ - Moved List of Past Consultations into table.  
+
+Version 0.9.12 Build 220
+ - Updated tables formatting for main window.
+ - Moved Add to Queue link in Patients List closer to name column.
+ - Added breadcrumbs helper to MY_url_helper. Still need to create 3rd level links.
+
+Version 0.9.12 Build 218
+ - Tidied main window's banner area.
+ - Updated mobile profile's banners and sidebars.
+ - Forced charts to be narrow for mobile profile.
+ - Disabled link to Add Columns for new report headers.
+
+Version 0.9.12 Build 217
+ - Added Charts to Vital Signs History, using jqPlot version 1.0.0b2.
+ - Plotting Temperature, Height, Weight and Blood Pressure.
+ - Height and width of charts are rendered based on data sets' characteristics.
+ - Still unable to export the charts to PDF file.
+ - Cleaned up units of measure of Vital Signs in Overview Sheet.
+
+Version 0.9.12 Build 216
+ - Changed colours of boxes to white
+ - Added Pre-diagnostic Observations to Progress Sheet
+ - Updated some letterheads for printable hardcopies
+
+Version 0.9.12 Build 215
+ - Updated jQuery UI to full version 1.8.16 and jQuery version 1.6.2, to enable AutoComplete
+ - Removed getElementById alias in edit_diagnoses form
+ - Added AutoComplete to search field for diagnosis form
+ - Reduced size of header elements
+ - Updated README.txt
+
+Version 0.9.12 Build 213 and 214
+ - Tagged versions 0.9.10 and 0.9.11
+
+Version 0.9.12 Build 212
+ - Committing new views left out in previous build
+
+Version 0.9.12 Build 211
+ - Added lists of Medical and Medication History 
+
+Version 0.9.12 Build 210
+ - Changed title blocks to colours for Overview Sheet and Progress Sheet.
+ - Collapsed borders for prescribe immunisation.
+ - Tweaked GEM integration further.
+
+Version 0.9.12 Build 209
+ - Added first name to incoming referrals block on dashboard.
+ - Hid Post Consultation Queue until further notice.
+ - Added alphabet links to patients list into dashboard.
+ - Cleaned up antenatal checkup page in antenatal history.
+ - Incorporating GEM usage into THIRRA, except for GEM reports. Still require GEM to build the modules.
+ - Updated side bar for initiate new consultation
+ - Changed date of past consultations in Overview Sheet to date ended.
+
+Version 0.9.12 Build 208
+ - Altered unique constraint for drug packages to allow multiple clinics.
+ - Removed label attribute from option tags in various forms.
+ - Continued work on incorporating GEM into THIRRA.
+
+Version 0.9.12 Build 207
+ - Updated import clinical episodes data to use revised prescribe_queue table.
+ - Removed sidebars from imports and exports pages.
+
+Version 0.9.12 Build 206
+ - Updated export clinical episodes data to use revised prescribe_queue table.
+ - Removed post partum checkup from sidebar of consultation as it is now accessible from Antenatal Info.
+ - Added dose form for total quantity prescribed and dose duration to searchable prescription form.
+ - Added denormalised drug info into presrcipt_queue table when prescibing.
+
+Version 0.9.12 Build 205
+ - Changed section links in main window from anchor element to td to ease clicking, by providing larger area to click.
+
+Version 0.9.12 Build 204
+ - Started incorporating Generic Engine for Modules into THIRRA.
+ - Added About THIRRA in Utilities Section.
+ - Restructured database.php
+ - Allowed special characters for clinic_info
+
+Version 0.9.12 Build 203
+ - Added chapters drop down list to Add Diagnosis Code form.
+ - Ajaxified Add New Drug Code.
+ - Removed side bar of more pages in main window.
+ - Added Drug Package container.
+ - Added Prescribe Drug Package.
+
+Version 0.9.12 Build 202
+ - Removed side bar of main pages in main window.
+ - Fixed bug on side bar disabled in previous build.
+ - Ajaxified Add New Drug Formulary.
+
+Version 0.9.12 Build 201
+ - Changes to database schema - tables related to drugs.
+ - Ajaxified Immunisation Prescription form.
+ - Improved Consultation Progress for display of prescriptions.
+ - Changed saving of prescriptions to use dcode_id.
+
+Version 0.9.11 Build 200
+ - Removed drug formulary code from drop down list in prescription form.
+ - Added non-standard instructions field to prescription form.
+ - Added date picker to vital signs form.
+ - Improved Consultation Report Template.
+ - Added Pre-diagnosis observations form.
+ - Cleaned up side bar for consultation window.
+ - Ajaxified Categorised Diagnosis form.
+
+Version 0.9.11 Build 199
+ - Cascading dynamic drop down list using AJAX is finally working, thanks to delegate.
+ - Prescription form is now speedier.
+
+Version 0.9.11 Build 198
+ - Added retrieval of drug knowledgebase and allergic reactions via AJAX in prescription form.
+ - Added date picker to Consultation Progress, Imaging Result forms.
+
+Version 0.9.11 Build 197
+ - Added back form validation of dose form to prescription forms.
+ - Added AJAX retrieval of more medication history in Overview Sheet.
+ - Rearranged medical history in Overview Sheet.
+
+Version 0.9.11 Build 196
+ - Fixed error made in previous commit.
+
+Version 0.9.11 Build 195
+ - Added htmlspecialchars to retrieval of diagnosis and prescription data for XML export.
+
+Version 0.9.11 Build 194
+ - Fixed bug for export immunisation history.
+ - Fixed form validation bug for immunisation history.
+
+Version 0.9.11 Build 193
+ - AJAX for Overview Sheet to display more immunisation history is now working.
+
+Version 0.9.11 Build 192
+ - Disable post partum care if no delivery.
+ - Minor tweaks to Overview Sheet, lab results, select immunisation
+
+Version 0.9.11 Build 191
+ - Switched select report parameters with report template info.
+ - Corrected regression to Immunisation history/prescription caused by AJAXification.
+
+Version 0.9.11 Build 190
+ - AJAXified
+ - Changed part of prescribing process to utilise AJAX - Trade names. Knowledgebase retrieval not updated.
+ - Allow user to retrieve all immunisation history on Individual Overview Sheet.
+
+Version 0.9.11 Build 189
+ - Fixed bugs in Referral System
+ - Added ad hoc and with PO to drug supplier invoices
+
+Version 0.9.11 Build 188
+ - Moved History of Antenatal Checkups from GEM to THIRRA for PH RHU
+ - Added Immunisations Done to Report Template
+ - Added List of Open Consultations on Dashboard
+ - Rearranged layout for Patient Overview Sheet, placing list of past consultations at the top
+ - Added Last Antenatal Checkup to Patient Overview Sheet
+
+Version 0.9.11 Build 187
+ - Moved Consultation Antenatal Checkups from GEM to THIRRA for PH RHU
+
+Version 0.9.11 Build 186
+ - Added tracking of offline mode editing of patient demographic information, antenatal information and and antenatal checkup
+
+Version 0.9.11 Build 185
+ - Added Graph of Pregnancy to Antenatal Checkups
+ - Started moving Antenatal Checkups from GEM to THIRRA.
+
+Version 0.9.10 Build 184
+ - New Antenatal Checkup forms will show link if no vital signs exist.
+ - Added tracking changes to patient demographic information and antenatal information, while in offline mode.
+ - Added List of Open Sessions in Data Synchronisation
+ - Added List of Synch Activity Logs
+ - Added warning of prior imports of the same XML file
+ - Cleaned up system feedback for import activities
+ - Allowed user to change Page Size and Page Orientation of Custom Report Templates for PDF output
+
+Version 0.9.10 Build 183
+ - Users can now delete empty open consultation.
+ - Started work on Drug Supplier Invoice
+
+Version 0.9.10 Build 182
+ - Cleaned up some minor bugs in Antenatal module
+ - Improved report template query for antenatal events
+
+Version 0.9.10 Build 182
+ - Cleaned up antenatal followup forms. Allow editing in consultation only for current consultation.
+ - Added Postpartum Care
+ - Allowed user to change status of Antenatal Event
+
+Version 0.9.10 Build 181
+ - Made server mode in login page more obvious
+ - Corrected pregnancy duration in various pages
+ - Removed Gestation based on LMP as it should be a formula
+
+Version 0.9.10 Build 180
+ - Fixed adding new drug ATC code bug
+ - Added guestimated current gravida in antenatal consultation
+
+Version 0.9.10 Build 179
+ - Save antenatal history status according to EDD - open if EDD > current date
+ - Adding edit imaging results in patient individual records
+ - Changed colour of cells for drug allergies to red background
+ - Added Check for drug allergies when prescribing
+ - Adding unique key to gravida in antenatal table
+
+Version 0.9.10 Build 178
+ - Minor change to patient_antenatal_delivery table
+ - Finetuned upload patient portraits.
+ - Added reset synch flags
+ - Enhanced antenatal delivery history and antenatal delivery in consultation window.
+ - Updated import/export antenatal delivery to include new fields
+ - Added rational check for gestation period in Antenatal Delivery history
+ - Listed multiple deliveries in Antenatal History
+ - Enhanced imaging results
+ - Restricted imaging products ordering by clinic
+ - Allowed lab packages not ordered to change clinic location
+
+Version 0.9.9 Build 177
+ - Added upload external files (images) to consultation
+ - Fixed uploading of patient portraits, regressed due to upgrade of CI to v1.7.3.
+
+Version 0.9.9 Build 176
+ - Halfway to solving preventing users from creating mulitple sessions simultaneously.
+
+Version 0.9.9 Build 175
+ - Fixed a bug in importing patient data
+ - Fixed antenatal_list in report model
+ - Started removing sidebards from main windows, retaining patient overview and consultation windows
+
+Version 0.9.9 Build 174
+ - Fixed a bug in editing lab package test
+ - Biosurveillance - Added print documents links to Case Management pages
+ - Removed sidebars from main windows
+
+Version 0.9.9 Build 173
+ - Added data synchronisation for user logins
+
+Version 0.9.9 Build 172
+ - Added logging of all data synchronisation activites.
+
+Version 0.9.9 Build 171
+ - Adding logging of data synchronisation activities in progress
+
+Version 0.9.8 Build 170
+ - Added Edit ATC drug code
+ - Added filters to GEM modules in consultation by age and sex
+
+Version 0.9.8 Build 169
+ - Added Add ATC drug code
+
+Version 0.9.8 Build 168
+ - Fixed add drug formulary and drug codes bugs
+
+Version 0.9.8 Build 167
+ - Corrected add drug formulary and drug codes bugs
+
+Version 0.9.8 Build 166
+ - Added import immunisation histories
+
+Version 0.9.8 Build 165
+ - Finetuned XML exports
+ - Added referrals to importing of episodes data
+ - Added import antenatal info, antenatal checkup and antenatal deliveries
+
+Version 0.9.8 Build 164
+ - Filtering export episodes to closed ones only
+ - Confining export to XML to logged in clinic only
+ - Updated all XML export methods to latest schema
+
+Version 0.9.8 Build 163
+ - Added Export antenatal data to XML
+
+Version 0.9.8 Build 162
+ - Splitted more models into sections
+
+Version 0.9.8 Build 161
+ - Added Add/Edit Drug Supplier
+ - Display lab results form although has no LAB_RESULTS rows
+ - Adding synch in when importing data
+ - Corrected links to patient overview sheet in export patients data
+ - Added synch out when starting new episodes
+
+Version 0.9.8 Build 160
+ - Added Add Immunisation Drug
+ - Fixed Fasting and Urgency fields in lab orders
+ - Added Add Drug Allergy
+
+Version 0.9.8 Build 159
+ - Fixed bugs for PATIENT_ANTENATAL_FOLLOWUP
+ - Modified column weight of PATIENT_ANTENATAL_FOLLOWUP
+ - Added Add/Edit Immunisation Code
+
+Version 0.9.8 Build 158
+ - Significant changes to database schema
+ - Modified lab results to reflect updated schema
+ - Modified referral centres to reflect updated schema
+ - Modified rooms to reflect updated schema
+ - Added breasts examination to Physical Examination
+ - Adding Add/Edit Immunisation Code
+
+Version 0.9.7 Build 157
+ - Added Drugs Prescribed query to Report Template
+ - Added more fields to Report Templates' queries
+
+Version 0.9.7 Build 156
+ - Fixed adding new lab package tests link bug
+ - Adding drug products catalogue
+
+Version 0.9.7 Build 155
+ - Prevented user from deleting lab package tests if lab orders exist for lab package
+ - Prevented user from changing LOINC class if lab package tests exist
+ - Fixed last pages of classifications lists in Utilities Section
+ - Added Immunisation codes list
+ - Added List of Drug Suppliers
+
+Version 0.9.7 Build 154
+ - Added Bikram Sambat calendar tool to Antenatal Info and Antenatal Delivery forms
+ - Added cases count to dashboard of WAP PHI
+
+Version 0.9.7 Build 153
+ - Added cases count to dashboard of PHI office
+ - Adding Add/Edit dcode1
+
+Version 0.9.7 Build 152
+ - Added Add/Edit Complaint Codes
+
+Version 0.9.7 Build 151
+ - Minor bug fix to end consultation
+ - Fixed to account for $_SERVER['DOCUMENT_ROOT'] with and without ending slash.
+
+Version 0.9.7 Build 150
+ - Disabled debug SQL outputs
+
+Version 0.9.7 Build 149
+ - Minor bug fixes to System User form
+
+Version 0.9.7 Build 148
+ - Minor bug fixes in data synchronisation views
+
+Version 0.9.7 Build 147
+ - Added List of Pending Lab Orders to Dashboard
+ - Added List of Pending Referrals to Patient Section
+ - Removed hardcoded filepaths for data synching
+ - Ending ADT when consultation is ended
+ - Added transaction to ending consultation updates
+ - Added delete lab order
+
+Version 0.9.7 Build 146
+ - Distributed Patient Referral System can export XML file, allow manual import of XML file if patient record does not exist.
+
+Version 0.9.7 Build 145
+ - Fixed import Patient Demographic Info
+ - Fixed editing Department
+ - Started Distributed Patient Referral System
+ - Added Useful Links to Utilities Section
+
+Version 0.9.7 Build 144
+ - Made lab packages to be confined to one clinic
+ - Added edit Lab Results inside patient's individual files
+ - Activated 'reviewed by consultant' flag
+ - Paginated Closed Lab Results
+ - Lab order sample date changed to ending consultation date, if backdating the session.
+
+Version 0.9.7 Build 143
+ - Updated synching clinical episodes. Added imaging orders
+
+Version 0.9.7 Build 142
+ - Cleaned up Imaging Suppliers and Imaging Orders
+ - Started using flashdata
+ - Added List Lab Tests History and List Imaging Orders History
+
+Version 0.9.7 Build 141
+ - Cleaned up Lab Suppliers catalogue
+
+Version 0.9.7 Build 140
+ - Cleaned up Lab Suppliers
+
+Version 0.9.7 Build 139
+ - Upgrade CodeIgniter to version 1.7.3. Manually added PostgreSQL driver patch
+ - Fixed editing Reasons for Encounter errors
+
+Version 0.9.7 Build 138
+ - Working Add/Edit District info
+ - Added All Diagnosis Chapter to Edit Diagnosis by category
+ - Added Add/Edit Clinic Departments
+
+Version 0.9.7 Build 137
+ - Tidied patient referral
+ - Added All Formulary System to Edit Prescription by category
+ - Split EHR_INDIVIDUAL_HISTORY from EHR_INDIVIDUAL
+ - Posts PRESCRIPT_QUEUE immediately to PATIENT_MEDICATION upon ending consultation
+ - Closing session will change reading date of vital signs to end date
+ - Added archive link for prescriptions to Pharmacy Management
+
+Version 0.9.7 Build 136
+ - Added usage of Drug Codes to prescriptions until Inventory Management is implemented
+ - Updated printable prescriptions
+ - Disabled appointments in Queue Management
+
+Version 0.9.7 Build 135
+ - Added queue cancellation
+ - Added embedded Bikram Sambat converter for Nepal, to Patient Demographic Info form
+ - Added Edit Drug Code
+
+Version 0.9.7 Build 134
+ - Added Drugs ATC list 
+ - Adding Edit Drug Code
+
+Version 0.9.7 Build 133
+ - Bug fix for diagnosis codes and banner for overview window.
+
+Version 0.9.7 Build 132
+ - Bug fix for antenatal.
+ - Adding CLI
+
+Version 0.9.7 Build 131
+ - Display age in banners
+ - Enhanced antenatal links
+
+Version 0.9.7 Build 130
+ - Customisable Reports can export as CSV.
+ - Added antenatal info to Progress of Consultation.
+
+Version 0.9.7 Build 129
+ - Updated WAP view links to HTML views
+ - Disabled sidebar links for new patients and consultations.
+ - Added estimated age to patient demographic info. It computes birthday as age minus current date.
+
+Version 0.9.7 Build 128
+ - Update WAP view links for patient records and consultation to use XHTML.
+ - Updated mpdf to use version 5.0 in thirra/codeigniter/system/libraries/
+
+Version 0.9.7 Build 127
+ - Added transactions to new user registration, new patient registration, start consultation and new antenatal event.
+ - Grouped patients queue by department in Dashboard and Queue Management section.
+
+Version 0.9.7 Build 126
+ - Set patient relationship to Independent or Under Head of Family instead of Head of Family.
+ - Added jQuery-UI datepicker to edit_antenatal_history.
+
+Version 0.9.7 Build 125
+ - Added jQuery-UI datepicker to edit_antenatal_info and select_reports.
+
+Version 0.9.7 Build 124
+ - Added jQuery-UI datepicker to edit_queue, immunisation_history and edit_patient.
+
+Version 0.9.7 Build 123
+ - Minor update to implement changes made to schema in Build 122.
+
+Version 0.9.7 Build 122
+ - Added clinic departments, but not implemented in staff section yet.
+
+Version 0.9.7B Build 121
+ - Corrected adding new antenatal follow-up errors.
+ - Finetuned antenatal.
+
+Version 0.9.7A Build 120
+ - Corrected adding new antenatal errors.
+
+Version 0.9.7A Build 119
+ - Corrected Nepal's inability to edit patient demographic info.
+ - Disabled links of sidebar when starting new consultation until confirmed by user.
+ - Display patient portrait in add/edit queue
+
+Version 0.9.7A Build 118
+ - WIP revamping antenatal.
+ - Splitted admin-edi controller from admin controller.
+ - Added drug formulary info in Utilities section.
+
+Version 0.9.7A Build 117
+ - WIP revamping antenatal.
+ - Completing consultation removes patient from queue.
+
+Version 0.9.7A Build 116 
+ - WIP revamping antenatal.
+ - Complete antenatal info and antenatal current.
+
+Version 0.9.7A Build 115 
+ - WIP revamping antenatal.
+ - No longer need to edit config.php for baseurl()
+
+Version 0.9.6B3 Build 114
+ - WIP antenatal. Schema yet to change.
+ - Patient portraits saved to proper application related directories.
+
+Version 0.9.6B2 Build 113
+ - WIP antenatal.
+ - Schema yet to change.
+ - Minor corrections.
+
+Version 0.9.6A5 Build 111
+ - WIP antenatal.
+ - Schema yet to change.
+ - Added referral history to Overview Sheet.
+ 
+Version 0.9.6B1 Build 111
+ - WIP antenatal.
+ -  Completed physical examination, drug allergies and social history.
+ - Added Report Template for Antenatal and Javascript alerts when deleting records and closing consultation.
+ - Schema yet to change.
+ 
+Version 0.9.6A4 Build 110
+ - WIP antenatal, physical examination, drug allergies and social history.
+ - Schema yet to change. 
+ - Added Family concept.
+ 
+Version 0.9.6A3 Build 109
+ - WIP antenatal (can add and edit) , physical examination, drug allergies and social history.
+ - Added Patient Booklet for Kirtipur Hospital.
+ 
+Version 0.9.6A2 Build 108
+ - WIP antenatal (can add and edit) , physical examination, drug allergies and social history.
+ - Schema yet to change.
+ - Added unique callback.
+ 
+Version 0.9.6A1 Build 107
+ - WIP antenatal, physical examination, drug allergies and social history.
+ - Schema yet to change.
+ 
+Version 0.9.5RC4 Build 106
+ - WIP drug allergies and social history
+ 
+Version 0.9.5RC3 Build 105
+ - Deletable presciptions, diagnoses and complaints
+ 
+Version 0.9.5RC2 Build 104
+ - Cleaned up Patient Registration Form
+ 
+Version 0.9.5RC1 Build 103
+ - Editable System User
+ 
+Version 0.9.5RC1 Build 102
+ - Patients searchable by name, NRIC or clinic reference, updated Overview Sheet
+ 
+Version 0.9.5RC1 Build 101
+ - Editable Staff Category to complement Access Control Rights
+ 
+Version 0.9.4RC4 Build 100
+ - Implemented Access Control List by Sections
+ 
+Version 0.9.4RC3 Build 99
+ - Adding Staff Categories Management
+ 
+Version 0.9.4RC2 Build 98
+ - Updating States, Complaint Code List, Drug Code List
+ 
+Version 0.9.4RC1 Build 97
+ - Updated Biosurveillance to use geographic info for addresses, working paginations for long lists, 
+   added Utilities and Cases Sections to Biosurveillance
+ 
+Build 096
+ - Minor updates to BIO
+
+Build 95
+ - Added placeholder for Reason for Encounter, Image Products
+ 
+Build 94
+ - Minor update
+ 
+Version 0.9.3 Build 93
+ - Updated WAP views
+ 
+Build 92
+ - Sortable Custom Reports, sortable table columns for listings.
+ - Edit Clinic Info
+ 
+Build 91
+ - Editable Clinics Info, Deleteable Reports Columns and Deleteable Patient Immunisation History
+ 
+Build 90
+ - Edit Clinics in progress
+ 
+Build 89
+ - Improved Custom Report Templates
+ 
+Build 88
+ - Added Defining Parameters for Report Generation
+ 
+Build 87
+ - Added User Customisable Reports
+ 
+Build 86
+ - Working Custom Reports
+ 
+Build 85
+ - Minor tidying of admin section
+ 
+Version 0.9.2 Build 84
+ - Able to record and close Lab Results and Imaging Results. Print templates for lab results and
+   imaging results
+ 
+Build 83
+ - Added Lists of closed orders and Printing of Prescriptions
+ 
+Build 82
+ - End consultations clean up lab and imaging orders
+ 
+Build 80
+ - Starting Imaging Supplier section
+ 
+Build 80
+ - Confined patients list to current clinic and added List Vital Signs History
+ 
+Build 79
+ - Logging logins
+ 
+Build 78
+ - Basic date format form validation
+ 
+Build 77
+ - Completed Geographical Locations in Utilities Managament and updated Patient Demographic Info to
+   utilise geographical locations
+ 
+Build 76
+ - Able to Add and Edit Villages
+ 
+Build 75
+ - Adding Address Villages utility
+ 
+Build 74
+ - Able to order lab tests correctly
+ 
+Build 73
+ - Insertable Lab Module data and updated WAP pages
+ 
+Build 72 Version 0.9.1
+ - Started on Pathology Module
+ 
+Build 71 Version 0.9.0
+ - Deployed in Perak
+ - Amended ADDR_VILLAGE
+ 
+Build 70
+ - Added ADDR_X and changed ICD-10 to SL requirements
+ 
+Build 69
+ - Changed Biosurveillance to use short_title for diagnosis codes
+ 
+Build 68
+ - Added Imaging Orders results box for current session
+ 
+Build 67
+ - Adding detailed lab results to EHR
+ 
+Build 66
+ - Updating demographic info updates PATIENT_CONTACT_INFO
+ 
+Build 65
+ - Started trying PanaCI
+ 
+Build 64
+ - Updated Case updates for Biosurveillance
+ 
+Build 63
+ - Updated WAP version of Biosurveillance
+ 
+Build 62
+ - Version 0.8.7 - Fine tuned Biosurveillance with changes to schema, to comply with Form 411
+ 
+Build 61
+ - Added Add Vaccination History
+ 
+Build 60
+ - Corrected prescribe immunisation
+ 
+Build 59
+ - Started adding immunisation to EHR
+ 
+Build 058
+ - Further compliance to Biosurveillance forms
+ 
+Build 57
+ - Moved maps into svn
+ 
+Build 56 Version 0.8.6
+ - Amended BIO_CASE table to comply further with Form 411 and improved integration with maps
+ 
+Build 55
+ - Minor update
+ 
+Build 54
+ - Integrated THIRRA with Generic Engine for Modules (GEM)
+ 
+Build 53
+ - More work on Form 411
+ 
+Build 52
+ - Updated edit investigation WAP to use new fields
+ 
+Build 51
+ - Version 0.8.5 - Improved BIO_INVESTIGATE to match Form 411
+ 
+Build 50
+ - Fixed bio case update errors
+ 
+Build 49
+ - Activated PHI Reference No.
+ 
+Build 48
+ - Updated wap UI forms
+ 
+Build 47
+ - Started Form 411
+ 
+Build 46
+ - Corrected Admission Date for Biosurveillance
+ 
+Build 45
+ - Biosurveillance - added wards, lab results, age and printable Form 544
+ 
+Build 44
+ - Integrated panaCI for charting, one stop flags update in config.php, Javascript for vital signs
+ 
+Build 43 - Version 0.8.4
+ - Integrated mpdf library for pdf outputs.
+ 
+Build 042
+ - Able to import vital signs, lab orders, diagnosis and prescriptions from Offline Server
+ 
+Build 40
+ - Able to import Patient Complaints from Offline Server
+ - Able to import consultation episodes but no details
+ 
+Build 39
+ - Cleaned code result of refactoring to views/ehr directory
+ 
+Build 38
+ - Able to import new patients from Offline Servers
+ 
+Build 37 - Ver. 0.8.3
+ - Refactored controllers for EHR into sections, working draft patient info synching.
+ 
+Build 36
+ - Almost able to import new patient
+ 
+Build 35
+ - Able to export Patient Demographic info
+ 
+Build 34
+ - Admin Synch Data
+ 
+Build 33
+ - Mobile Server aware
+ 
+Build 32
+ - Most inserts are offline mode aware
+ 
+Build 31
+ - Starting offline devt
+ 
+Build 30
+
+Build 29
+ - Form 544
+ 
+Build 28
+ - Adopting Sri Lankan forms
+ 
+Build 27
+ - Use CSS for WAP
+ 
+Build 26
+ - Edit consultation components
+ 
+Version 0.8 Build 25
+ - Referrals among partners
+ 
+Build 24
+ - Referral Persons
+ 
+Version 0.7 Build 23
+ - Referrals
+ 
+Version 0.6 Build 22
+ - modified BIO_FILE table
+ 
+Build 21
+ - Used bio_file table
+ 
+Build 20
+ - Added printing CSS
+ 
+Build 19
+ - Updated EHR WAP
+ 
+Build 18
+ - Searchable prescriptions
+ 
+Build 17
+ - splitted memr.php
+ 
+Build 1 2009-12-09 16:46:29 +0800 (Wed, 09 Dec 2009)
+ - Beginning of THIRRA

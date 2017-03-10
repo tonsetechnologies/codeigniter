@@ -1,0 +1,92 @@
+9
+
+dir
+251
+https://thirra.svn.sourceforge.net/svnroot/thirra/trunk/thirra/codeigniter/system-1.7
+https://thirra.svn.sourceforge.net/svnroot/thirra
+
+
+
+2011-11-16T04:43:32.003811Z
+235
+jasontn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+24e1ba0c-de5d-4729-9ed5-f8a2b56cb0c0
+
+scaffolding
+dir
+
+plugins
+dir
+
+helpers
+dir
+
+cache
+dir
+
+language
+dir
+
+database
+dir
+
+logs
+dir
+
+fonts
+dir
+
+index.html
+file
+
+
+
+
+2011-11-16T04:52:38.000000Z
+0227cfd904e99656279202032b98d4a7
+2009-12-09T08:46:29.684497Z
+1
+jasontn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114
+
+codeigniter
+dir
+
+libraries
+dir
+

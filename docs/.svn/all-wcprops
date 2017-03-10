@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/thirra/!svn/ver/251/trunk/thirra/docs
+END
+billing_development.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/thirra/!svn/ver/248/trunk/thirra/docs/billing_development.txt
+END
+restructure_CodeIgniter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/thirra/!svn/ver/215/trunk/thirra/docs/restructure_CodeIgniter.txt
+END
+db_schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/thirra/!svn/ver/249/trunk/thirra/docs/db_schema.sql
+END
+postgre_driver.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/thirra/!svn/ver/55/trunk/thirra/docs/postgre_driver.php
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/thirra/!svn/ver/251/trunk/thirra/docs/changelog.txt
+END
+module_development.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/thirra/!svn/ver/245/trunk/thirra/docs/module_development.txt
+END
+synchronisation.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/thirra/!svn/ver/167/trunk/thirra/docs/synchronisation.txt
+END
+directories_required.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/thirra/!svn/ver/201/trunk/thirra/docs/directories_required.txt
+END
+hmvc_regression.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/thirra/!svn/ver/240/trunk/thirra/docs/hmvc_regression.txt
+END
+procedures_development.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/thirra/!svn/ver/249/trunk/thirra/docs/procedures_development.txt
+END

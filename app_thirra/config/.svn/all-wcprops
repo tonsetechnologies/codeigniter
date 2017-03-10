@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/thirra/!svn/ver/237/trunk/thirra/app_thirra/config
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/migration.php
+END
+doctypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/doctypes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/database.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/thirra/!svn/ver/237/trunk/thirra/app_thirra/config/config.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/autoload.php
+END
+foreign_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/foreign_chars.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/mimes.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/constants.php
+END
+form_validation.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/thirra/!svn/ver/233/trunk/thirra/app_thirra/config/form_validation.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/user_agents.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/routes.php
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/profiler.php
+END
+hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/hooks.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/thirra/!svn/ver/1/trunk/thirra/app_thirra/config/index.html
+END
+smileys.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/config/smileys.php
+END

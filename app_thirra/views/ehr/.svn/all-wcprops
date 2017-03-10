@@ -1,0 +1,2747 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/thirra/!svn/ver/240/trunk/thirra/app_thirra/views/ehr
+END
+sidebar_emr_utilities_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_utilities_html.php~
+END
+ehr_admin_export_new_patients_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/175/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_patients_html.php~
+END
+ehr_admin_import_antenatalcheckup_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_antenatalcheckup_html.php~
+END
+ehr_reports_consult_details_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/222/trunk/thirra/app_thirra/views/ehr/ehr_reports_consult_details_html.php
+END
+sidebar_emr_reports_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_reports_wap.php~
+END
+ehr_consult_list_drug_package_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/203/trunk/thirra/app_thirra/views/ehr/ehr_consult_list_drug_package_html.php
+END
+ehr_util_list_addrdistricts_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/98/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrdistricts_wap.php
+END
+ehr_edit_diagnoses_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/111/trunk/thirra/app_thirra/views/ehr/ehr_edit_diagnoses_html.php~
+END
+ehr_admin_edit_referral_centre_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/208/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_referral_centre_html.php
+END
+emr_close_episode_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/100/trunk/thirra/app_thirra/views/ehr/emr_close_episode_html.php~
+END
+emr_queue_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_queue_mgt_wap.php
+END
+ehr_admin_import_new_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_antenatalcheckup_html.php
+END
+sidebar_emr_patients_ovrvwNoLink_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/129/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_ovrvwNoLink_wap.php
+END
+ehr_orders_edit_labresults_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_labresults_wap.php
+END
+emr_admin_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/55/trunk/thirra/app_thirra/views/ehr/emr_admin_mgt_wap.php
+END
+banner_emr_conslt_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/banner_emr_conslt_html.php~
+END
+ehr_admin_export_new_episodes_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/171/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_episodes_html.php~
+END
+ehr_util_list_addrtowns_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/95/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrtowns_html.php~
+END
+ehr_orders_edit_lab_package_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/240/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_lab_package_html.php
+END
+banner_emr_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/thirra/!svn/ver/87/trunk/thirra/app_thirra/views/ehr/banner_emr_wap.php
+END
+ehr_util_edit_state_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_state_info_html.php
+END
+ehr_admin_export_new_antenatalcheckup_done_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/thirra/!svn/ver/163/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalcheckup_done_html.php~
+END
+ehr_util_edit_village_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_village_info_html.php
+END
+ehr_edit_imaging_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/82/trunk/thirra/app_thirra/views/ehr/ehr_edit_imaging_wap.php
+END
+sidebar_emr_patients_conslt_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/182/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_conslt_html.php~
+END
+ehr_histdel_immune_confirm_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_histdel_immune_confirm_wap.php
+END
+header_xhtml1-transitional.php~
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/124/trunk/thirra/app_thirra/views/ehr/header_xhtml1-transitional.php~
+END
+ehr_indv_list_history_imaging_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/179/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_imaging_html.php
+END
+ehr_admin_export_new_antenatalinfo_done_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/163/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalinfo_done_html.php~
+END
+ehr_util_edit_immunisation_code_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_immunisation_code_html.php
+END
+ehr_indv_list_history_medication_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/212/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_medication_html.php
+END
+ehr_admin_list_systemusers_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_systemusers_html.php
+END
+emr_edit_postconsult_queue_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/43/trunk/thirra/app_thirra/views/ehr/emr_edit_postconsult_queue_html.php
+END
+banner_emr_ovrvw_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/banner_emr_ovrvw_html.php~
+END
+ehr_reports_select_report_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_reports_select_report_wap.php
+END
+ehr_admin_list_staffcategories_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_staffcategories_html.php
+END
+ehr_reports_edit_reportbody_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/222/trunk/thirra/app_thirra/views/ehr/ehr_reports_edit_reportbody_html.php
+END
+sidebar_emr_orders_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_orders_wap.php~
+END
+ehr_admin_export_new_patientsdone_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/147/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_patientsdone_html.php~
+END
+emr_indv_overview_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_indv_overview_wap.php
+END
+ehr_edit_imaging_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_edit_imaging_html.php~
+END
+ehr_queue_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_queue_mgt_wap.php
+END
+ehr_con_externalmod_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/59/trunk/thirra/app_thirra/views/ehr/ehr_con_externalmod_html.php~
+END
+ehr_orders_edit_lab_package_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_lab_package_wap.php
+END
+sidebar_emr_queue_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_queue_html.php~
+END
+emr_close_episode_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/100/trunk/thirra/app_thirra/views/ehr/emr_close_episode_html.php
+END
+ehr_admin_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_admin_mgt_wap.php
+END
+ehr_indv_startconsult_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/106/trunk/thirra/app_thirra/views/ehr/ehr_indv_startconsult_html.php~
+END
+ehr_indv_con_externalmod_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/75/trunk/thirra/app_thirra/views/ehr/ehr_indv_con_externalmod_wap.php
+END
+sidebar_emr_pharmacy_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_pharmacy_wap.php
+END
+ehr_admin_import_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_antenatalinfo_html.php
+END
+ehr_util_list_addrstates_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrstates_html.php
+END
+ehr_admin_list_clinics_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_clinics_html.php
+END
+sidebar_emr_patients_ovrvw_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/221/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_ovrvw_html.php
+END
+ehr_edit_upload_con_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_edit_upload_con_html.php
+END
+ehr_indv_consult_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_indv_consult_wap.php
+END
+ehr_edit_patient_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_edit_patient_wap.php
+END
+ehr_print_prescription_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_print_prescription_html.php
+END
+ajax_get_address_districtnames.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ajax_get_address_districtnames.php
+END
+ehr_reports_edit_reportbody_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_reports_edit_reportbody_wap.php
+END
+ehr_admin_export_new_antenataldelivery_done_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/thirra/!svn/ver/163/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenataldelivery_done_html.php~
+END
+sidebar_ehr_queue_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_queue_wap.php
+END
+ehr_indv_edit_his_antenatal_delivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_his_antenatal_delivery_html.php
+END
+emr_past_con_details_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_past_con_details_wap.php
+END
+ehr_admin_export_new_episodesdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/206/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_episodesdone_html.php
+END
+sidebar_ehr_admin_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_admin_wap.php
+END
+ehr_indv_list_history_social_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/162/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_social_html.php
+END
+ehr_util_edit_area_info_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_area_info_wap.php
+END
+ehr_pharmacy_mgt_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/183/trunk/thirra/app_thirra/views/ehr/ehr_pharmacy_mgt_html.php~
+END
+ehr_hardcopy_patient_booklet_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/109/trunk/thirra/app_thirra/views/ehr/ehr_hardcopy_patient_booklet_html.php
+END
+ehr_admin_import_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_antenataldelivery_html.php
+END
+ehr_edit_diagnoses_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/215/trunk/thirra/app_thirra/views/ehr/ehr_edit_diagnoses_html.php
+END
+ehr_edit_immune_select_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/71/trunk/thirra/app_thirra/views/ehr/ehr_edit_immune_select_wap.php
+END
+ajax_get_address_areanames.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ajax_get_address_areanames.php
+END
+sidebar_emr_queue_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_queue_html.php
+END
+ehr_admin_import_new_antenatalcheckup_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/184/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_antenatalcheckup_html.php~
+END
+emr_patients_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_patients_mgt_wap.php
+END
+banner_ehr_conslt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/191/trunk/thirra/app_thirra/views/ehr/banner_ehr_conslt_html.php
+END
+ehr_admin_list_referral_centres_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_referral_centres_html.php
+END
+emr_indv_startconsult_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/38/trunk/thirra/app_thirra/views/ehr/emr_indv_startconsult_html.php~
+END
+ehr_index_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/thirra/!svn/ver/223/trunk/thirra/app_thirra/views/ehr/ehr_index_wap.php
+END
+sidebar_emr_patients_conslt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_conslt_wap.php
+END
+ehr_edit_immune_prescribe_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/107/trunk/thirra/app_thirra/views/ehr/ehr_edit_immune_prescribe_html.php~
+END
+emr_edit_lab_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/thirra/!svn/ver/74/trunk/thirra/app_thirra/views/ehr/emr_edit_lab_wap.php
+END
+emr_edit_postconsult_queue_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_edit_postconsult_queue_wap.php
+END
+ajax_get_diagnosis_diagnosiscategory.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/200/trunk/thirra/app_thirra/views/ehr/ajax_get_diagnosis_diagnosiscategory.php
+END
+ehr_indv_list_drug_allergies_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/106/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_drug_allergies_html.php~
+END
+ehr_admin_export_new_antenatalcheckup_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalcheckup_done_html.php
+END
+ehr_admin_export_new_antenataldelivery_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenataldelivery_done_html.php
+END
+ehr_indv_list_drug_allergies_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/198/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_drug_allergies_html.php
+END
+ehr_util_edit_town_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_town_info_html.php
+END
+ehr_admin_import_refer_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_refer_html.php
+END
+ehr_print_lab_result_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/158/trunk/thirra/app_thirra/views/ehr/ehr_print_lab_result_html.php~
+END
+ehr_admin_import_new_logins_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_logins_html.php
+END
+ehr_util_list_drug_codes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_list_drug_codes_html.php
+END
+sidebar_emr_patients_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_wap.php~
+END
+ehr_edit_referral_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/ehr_edit_referral_html.php
+END
+sidebar_emr_admin_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_admin_wap.php~
+END
+ehr_admin_import_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_episodes_html.php
+END
+ehr_indv_edit_refer_out_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_refer_out_html.php
+END
+ehr_orders_list_imagsuppliers_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_list_imagsuppliers_wap.php
+END
+ehr_admin_import_antenatalinfo_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_antenatalinfo_html.php~
+END
+sidebar_emr_pharmacy_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_pharmacy_wap.php~
+END
+ehr_indv_refer_email_sent_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_indv_refer_email_sent_html.php
+END
+ehr_indv_list_history_gemsubmodule_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/223/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_gemsubmodule_html.php
+END
+ehr_orders_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_mgt_wap.php
+END
+banner_ehr_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/thirra/!svn/ver/224/trunk/thirra/app_thirra/views/ehr/banner_ehr_wap.php
+END
+banner_ehr_ovrvw_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/banner_ehr_ovrvw_wap.php~
+END
+ehr_admin_edit_clinic_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_clinic_info_html.php
+END
+ehr_admin_export_new_antenatalcheckup_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/172/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalcheckup_html.php~
+END
+ehr_admin_export_antenatalinfo_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_antenatalinfo_html.php~
+END
+ehr_orders_edit_lab_packagetest_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_lab_packagetest_html.php
+END
+sidebar_emr_reports_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_reports_html.php
+END
+ehr_orders_listclosed_labresults.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/83/trunk/thirra/app_thirra/views/ehr/ehr_orders_listclosed_labresults.php~
+END
+ehr_orders_list_imagsuppliers_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_orders_list_imagsuppliers_html.php
+END
+ehr_admin_import_logins_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_logins_html.php
+END
+ehr_edit_immune_select_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/210/trunk/thirra/app_thirra/views/ehr/ehr_edit_immune_select_html.php
+END
+ehr_indv_con_externalmod_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/170/trunk/thirra/app_thirra/views/ehr/ehr_indv_con_externalmod_html.php~
+END
+ehr_admin_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/thirra/!svn/ver/226/trunk/thirra/app_thirra/views/ehr/ehr_admin_mgt_html.php
+END
+ehr_orders_edit_imag_product_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/208/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_imag_product_html.php
+END
+ehr_util_edit_town_info_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/109/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_town_info_html.php~
+END
+sidebar_ehr_patients_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_patients_wap.php
+END
+header_xhtml1-strict.php~
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/header_xhtml1-strict.php~
+END
+sidebar_emr_reports_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_reports_wap.php
+END
+ehr_orders_edit_lab_packagetest_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_lab_packagetest_wap.php
+END
+ehr_phar_edit_drugsupplier_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_phar_edit_drugsupplier_info_html.php
+END
+ehr_edit_imaging_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_edit_imaging_html.php
+END
+ehr_patients_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_patients_mgt_wap.php
+END
+ehr_admin_export_new_logins_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_logins_done_html.php
+END
+sidebar_ehr_patients_ovrvw_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/226/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_patients_ovrvw_html.php
+END
+ehr_util_list_addrstates_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/95/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrstates_html.php~
+END
+ehr_admin_import_new_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_antenataldelivery_html.php
+END
+ehr_admin_import_new_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_episodes_html.php
+END
+ehr_admin_export_new_antenatal_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/163/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatal_html.php~
+END
+ehr_indv_refer_out2server_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_indv_refer_out2server_done_html.php
+END
+ehr_reports_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_reports_mgt_wap.php
+END
+sidebar_emr_orders_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_orders_html.php
+END
+ehr_admin_list_systemusers_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_systemusers_wap.php
+END
+ehr_indv_list_family_cluster_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_family_cluster_html.php
+END
+ehr_orders_list_suppliers_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/72/trunk/thirra/app_thirra/views/ehr/ehr_orders_list_suppliers_html.php~
+END
+ehr_admin_list_open_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/184/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_open_episodes_html.php
+END
+ehr_edit_antenatal_followup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_edit_antenatal_followup_html.php
+END
+ajax_get_indvoverview_immunisation.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/201/trunk/thirra/app_thirra/views/ehr/ajax_get_indvoverview_immunisation.php
+END
+ehr_indv_list_history_social_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/162/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_social_html.php~
+END
+ehr_admin_export_new_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalinfo_html.php
+END
+ehr_patients_list_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/238/trunk/thirra/app_thirra/views/ehr/ehr_patients_list_wap.php
+END
+emr_edit_reason_encounter_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/73/trunk/thirra/app_thirra/views/ehr/emr_edit_reason_encounter_wap.php
+END
+ehr_orders_listclosed_labresults_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_listclosed_labresults_wap.php
+END
+banner_emr_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/thirra/!svn/ver/40/trunk/thirra/app_thirra/views/ehr/banner_emr_html.php~
+END
+ehr_access_denied_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/204/trunk/thirra/app_thirra/views/ehr/ehr_access_denied_html.php
+END
+sidebar_ehr_orders_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_orders_wap.php
+END
+ehr_admin_reset_synchflags_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_admin_reset_synchflags_html.php
+END
+ehr_indv_list_history_diagnosis_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/216/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_diagnosis_html.php
+END
+ehr_util_list_addrareas_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/95/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrareas_html.php~
+END
+ehr_indv_list_family_relations_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/110/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_family_relations_html.php
+END
+ehr_admin_edit_staff_category_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_staff_category_html.php
+END
+ehr_admin_export_antenatal_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/163/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_antenatal_html.php~
+END
+ehr_indv_edit_history_social_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/137/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_history_social_html.php~
+END
+sidebar_emr_orders_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/55/trunk/thirra/app_thirra/views/ehr/sidebar_emr_orders_wap.php
+END
+ehr_admin_export_new_patientsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_patientsdone_html.php
+END
+ehr_edit_drug_package_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/231/trunk/thirra/app_thirra/views/ehr/ehr_edit_drug_package_html.php
+END
+ehr_admin_export_antenatalcheckup_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_antenatalcheckup_html.php~
+END
+banner_ehr_print_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/banner_ehr_print_html.php
+END
+ehr_admin_export_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_antenatalcheckup_html.php
+END
+ehr_admin_export_new_historyimmunisation_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_historyimmunisation_done_html.php
+END
+ehr_queue_edit_room_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_queue_edit_room_html.php
+END
+sidebar_ehr_patients_conslt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_patients_conslt_wap.php
+END
+banner_emr_print_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/87/trunk/thirra/app_thirra/views/ehr/banner_emr_print_html.php
+END
+ehr_print_report_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/224/trunk/thirra/app_thirra/views/ehr/ehr_print_report_html.php
+END
+emr_patients_upload_ovv_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/114/trunk/thirra/app_thirra/views/ehr/emr_patients_upload_ovv_html.php
+END
+ehr_admin_edit_clinic_dept_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_clinic_dept_html.php
+END
+ehr_indv_ovv_externalmod_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/54/trunk/thirra/app_thirra/views/ehr/ehr_indv_ovv_externalmod_html.php~
+END
+ehr_edit_physical_exam_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/158/trunk/thirra/app_thirra/views/ehr/ehr_edit_physical_exam_html.php
+END
+emr_search_patient_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/80/trunk/thirra/app_thirra/views/ehr/emr_search_patient_html.php~
+END
+ehr_admin_export_new_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenataldelivery_html.php
+END
+ehr_admin_export_new_antenataldone_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/163/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenataldone_html.php~
+END
+ehr_orders_edit_imagsupplier_info_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_imagsupplier_info_html.php~
+END
+ehr_print_referral_letter_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/ehr_print_referral_letter_html.php
+END
+ehr_patients_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/221/trunk/thirra/app_thirra/views/ehr/ehr_patients_mgt_html.php
+END
+sidebar_emr_pharmacy_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_pharmacy_html.php~
+END
+ehr_admin_import_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_historyimmunisation_html.php
+END
+ehr_indv_con_externalmod_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/209/trunk/thirra/app_thirra/views/ehr/ehr_indv_con_externalmod_html.php
+END
+ehr_indv_edit_relationship_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_relationship_info_html.php
+END
+ehr_utilities_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_utilities_mgt_wap.php
+END
+ehr_indv_edit_labresults_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/203/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_labresults_html.php
+END
+ehr_indv_edit_history_vitals_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_history_vitals_html.php
+END
+emr_edit_diagnoses_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/73/trunk/thirra/app_thirra/views/ehr/emr_edit_diagnoses_wap.php
+END
+sidebar_emr_patients_ovrvw_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_ovrvw_wap.php
+END
+ehr_admin_export_new_historyimmunisation_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/thirra/!svn/ver/172/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_historyimmunisation_html.php~
+END
+ehr_refer_import_review_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/189/trunk/thirra/app_thirra/views/ehr/ehr_refer_import_review_html.php
+END
+ehr_util_list_addrtowns_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrtowns_wap.php
+END
+ehr_phar_edit_drugsupplier_invoice_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/209/trunk/thirra/app_thirra/views/ehr/ehr_phar_edit_drugsupplier_invoice_html.php
+END
+ehr_indv_list_gem_submodules_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/209/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_gem_submodules_html.php
+END
+sidebar_emr_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_html.php
+END
+sidebar_emr_patients_ovrvw_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_ovrvw_html.php~
+END
+sidebar_emr_admin_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_admin_html.php
+END
+ehr_edithist_immune_select_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/210/trunk/thirra/app_thirra/views/ehr/ehr_edithist_immune_select_html.php
+END
+ehr_util_list_addrdistricts_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/98/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrdistricts_html.php~
+END
+ehr_admin_import_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_patients_html.php
+END
+sidebar_emr_utilities_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_utilities_wap.php~
+END
+ajax_get_address_villagenames.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ajax_get_address_villagenames.php
+END
+ehr_util_list_addrtowns_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrtowns_html.php
+END
+ehr_admin_export_new_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/206/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_episodes_html.php
+END
+ehr_queue_edit_queue_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_queue_edit_queue_html.php
+END
+ehr_orders_edit_labresults_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/161/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_labresults_html.php~
+END
+sidebar_emr_pharmacy_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_pharmacy_html.php
+END
+sidebar_emr_patients_ovrvwNoLink_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/72/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_ovrvwNoLink_html.php
+END
+ehr_admin_export_new_antenatalinfo_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/172/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalinfo_html.php~
+END
+ehr_indv_list_history_antenatal_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/231/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_antenatal_html.php
+END
+ehr_orders_edit_labresults_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/203/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_labresults_html.php
+END
+sidebar_emr_patients_consltNoLink_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/129/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_consltNoLink_wap.php
+END
+ehr_admin_import_new_patientsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/118/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_patientsdone_html.php
+END
+banner_ehr_ovrvw_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/223/trunk/thirra/app_thirra/views/ehr/banner_ehr_ovrvw_html.php
+END
+ehr_admin_list_clinics_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_clinics_wap.php
+END
+ehr_admin_list_referral_centres_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_referral_centres_wap.php
+END
+ehr_admin_import_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_antenatalcheckup_html.php
+END
+ehr_admin_edit_clinic_info_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_clinic_info_wap.php
+END
+banner_emr_ovrvw_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/banner_emr_ovrvw_html.php
+END
+sidebar_ehr_pharmacy_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_pharmacy_wap.php
+END
+ehr_orders_edit_imagsupplier_info_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_imagsupplier_info_wap.php
+END
+ehr_admin_export_new_historyimmunisation_done_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/thirra/!svn/ver/166/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_historyimmunisation_done_html.php~
+END
+ehr_histdel_immune_confirm_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/91/trunk/thirra/app_thirra/views/ehr/ehr_histdel_immune_confirm_html.php
+END
+ehr_admin_import_new_episodes_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/184/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_episodes_html.php~
+END
+ehr_admin_import_new_antenataldelivery_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/thirra/!svn/ver/184/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_antenataldelivery_html.php~
+END
+ehr_admin_export_antenataldelivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_antenataldelivery_html.php
+END
+ehr_edit_patient_demog_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/231/trunk/thirra/app_thirra/views/ehr/ehr_edit_patient_demog_html.php
+END
+ehr_orders_listclosed_imagresults_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_listclosed_imagresults_wap.php
+END
+ehr_indv_overview_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/238/trunk/thirra/app_thirra/views/ehr/ehr_indv_overview_html.php
+END
+ehr_util_list_addrvillages_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrvillages_html.php
+END
+ehr_phar_list_drugsupplier_invoices_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_phar_list_drugsupplier_invoices_html.php
+END
+ajax_get_address_statenames.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ajax_get_address_statenames.php
+END
+emr_newpage_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/emr_newpage_html.php
+END
+banner_emr_conslt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/banner_emr_conslt_html.php
+END
+emr_orders_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_orders_mgt_wap.php
+END
+ehr_orders_edit_imagresult_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_imagresult_html.php~
+END
+ehr_admin_import_new_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_patients_html.php
+END
+ehr_phar_list_drug_packages_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/208/trunk/thirra/app_thirra/views/ehr/ehr_phar_list_drug_packages_html.php
+END
+ehr_util_edit_drugformulary_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_drugformulary_html.php
+END
+ehr_indv_list_referral_out_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/227/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_referral_out_html.php
+END
+ehr_util_list_addrstates_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrstates_wap.php
+END
+emr_patients_list_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_patients_list_wap.php
+END
+banner_ehr_conslt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/banner_ehr_conslt_wap.php
+END
+emr_patients_upload_ovv_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_patients_upload_ovv_wap.php
+END
+ehr_edit_antenatal_delivery_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_edit_antenatal_delivery_html.php
+END
+ehr_edit_immune_prescribe_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_edit_immune_prescribe_wap.php
+END
+ehr_indv_edit_history_social_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/137/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_history_social_html.php
+END
+ehr_util_list_immunisation_codes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_list_immunisation_codes_html.php
+END
+ehr_admin_reset_synchflagsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_admin_reset_synchflagsdone_html.php
+END
+ehr_admin_export_antenataldelivery_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_antenataldelivery_html.php~
+END
+sidebar_emr_patients_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_html.php~
+END
+banner_emr_print_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/banner_emr_print_html.php~
+END
+emr_queue_edit_queue_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_queue_edit_queue_wap.php
+END
+ehr_edit_lab_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/thirra/!svn/ver/82/trunk/thirra/app_thirra/views/ehr/ehr_edit_lab_wap.php
+END
+footer_emr_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/footer_emr_wap.php
+END
+ehr_print_imag_result_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/84/trunk/thirra/app_thirra/views/ehr/ehr_print_imag_result_html.php
+END
+banner_emr_ovvw_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/banner_emr_ovvw_html.php~
+END
+ehr_edit_immune_prescribe_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/210/trunk/thirra/app_thirra/views/ehr/ehr_edit_immune_prescribe_html.php
+END
+emr_edit_vitals_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_edit_vitals_wap.php
+END
+ehr_util_list_addrareas_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrareas_wap.php
+END
+ehr_admin_export_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_historyimmunisation_html.php
+END
+ajax_update_kin_details.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/231/trunk/thirra/app_thirra/views/ehr/ajax_update_kin_details.php
+END
+emr_utilities_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_utilities_mgt_wap.php
+END
+ajax_get_formulary_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/203/trunk/thirra/app_thirra/views/ehr/ajax_get_formulary_info.php
+END
+ehr_orders_list_labsuppliers_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/81/trunk/thirra/app_thirra/views/ehr/ehr_orders_list_labsuppliers_html.php~
+END
+ehr_close_episode_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/102/trunk/thirra/app_thirra/views/ehr/ehr_close_episode_html.php
+END
+ehr_admin_import_new_refer_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/151/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_refer_html.php
+END
+ehr_util_edit_diagnosisext_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_diagnosisext_info_html.php
+END
+ehr_admin_export_new_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_historyimmunisation_html.php
+END
+emr_search_patient_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_search_patient_wap.php
+END
+ehr_util_list_drugatc_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_list_drugatc_html.php
+END
+ehr_orders_edit_imagresult_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_imagresult_wap.php
+END
+ehr_admin_export_episodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/206/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_episodes_html.php
+END
+ehr_edithist_immune_select_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/124/trunk/thirra/app_thirra/views/ehr/ehr_edithist_immune_select_html.php~
+END
+ehr_indv_edit_imagresults_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/203/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_imagresults_html.php
+END
+sidebar_emr_admin_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_admin_html.php~
+END
+sidebar_emr_patients_ovrvwReadOnly_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_ovrvwReadOnly_html.php~
+END
+ehr_phar_listclosed_prescriptions_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_phar_listclosed_prescriptions_wap.php
+END
+sidebar_emr_patients_conslt_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_conslt_wap.php~
+END
+ehr_orders_edit_lab_package_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_lab_package_html.php~
+END
+ehr_util_edit_drugatc_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_drugatc_html.php
+END
+ehr_util_list_complaint_codes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_list_complaint_codes_html.php
+END
+ehr_edit_procedure_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/231/trunk/thirra/app_thirra/views/ehr/ehr_edit_procedure_html.php
+END
+ehr_admin_export_patients_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_patients_html.php~
+END
+ehr_orders_edit_imagsupplier_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/224/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_imagsupplier_info_html.php
+END
+ehr_edit_reason_encounter_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/95/trunk/thirra/app_thirra/views/ehr/ehr_edit_reason_encounter_wap.php
+END
+emr_pharmacy_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_pharmacy_mgt_wap.php
+END
+ehr_util_list_diagnosisext_codes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_list_diagnosisext_codes_html.php
+END
+ehr_refer_select_details_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/181/trunk/thirra/app_thirra/views/ehr/ehr_refer_select_details_html.php
+END
+ehr_edit_vitals_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_edit_vitals_html.php
+END
+ehr_admin_export_new_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_patients_html.php
+END
+ehr_admin_import_new_historyimmunisation_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_historyimmunisation_html.php
+END
+sidebar_emr_utilities_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_utilities_html.php
+END
+ehr_admin_export_new_antenatalinfo_done_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalinfo_done_html.php
+END
+ehr_indv_refer_email_draft_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/235/trunk/thirra/app_thirra/views/ehr/ehr_indv_refer_email_draft_html.php
+END
+ehr_pharmacy_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/221/trunk/thirra/app_thirra/views/ehr/ehr_pharmacy_mgt_html.php
+END
+ehr_admin_list_synchlogs_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_synchlogs_html.php
+END
+emr_edit_diagnosis_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/73/trunk/thirra/app_thirra/views/ehr/emr_edit_diagnosis_wap.php
+END
+ehr_util_list_addrareas_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrareas_html.php
+END
+ehr_gem_consult_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/209/trunk/thirra/app_thirra/views/ehr/ehr_gem_consult_html.php
+END
+ehr_utilities_mgt_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/189/trunk/thirra/app_thirra/views/ehr/ehr_utilities_mgt_html.php~
+END
+emr_edit_systemuser_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_edit_systemuser_wap.php
+END
+ehr_patients_list_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/238/trunk/thirra/app_thirra/views/ehr/ehr_patients_list_html.php
+END
+ehr_admin_export_episodes_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_episodes_html.php~
+END
+ehr_util_edit_complaint_code_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_complaint_code_html.php
+END
+ehr_indv_overview_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/192/trunk/thirra/app_thirra/views/ehr/ehr_indv_overview_html.php~
+END
+ehr_util_edit_area_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_area_info_html.php
+END
+ehr_edit_diagnosis_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/200/trunk/thirra/app_thirra/views/ehr/ehr_edit_diagnosis_html.php
+END
+ehr_patients_searched_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/238/trunk/thirra/app_thirra/views/ehr/ehr_patients_searched_html.php
+END
+header_xhtml-mobile10.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/224/trunk/thirra/app_thirra/views/ehr/header_xhtml-mobile10.php
+END
+banner_emr_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/banner_emr_wap.php~
+END
+ehr_phar_edit_package_drug_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/203/trunk/thirra/app_thirra/views/ehr/ehr_phar_edit_package_drug_html.php
+END
+ehr_indv_list_history_vitals_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/102/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_vitals_html.php~
+END
+ehr_admin_export_new_antenatalcheckup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenatalcheckup_html.php
+END
+ehr_admin_export_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_antenatalinfo_html.php
+END
+ehr_admin_import_new_antenatalinfo_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/184/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_antenatalinfo_html.php~
+END
+emr_admin_edit_referral_person_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_admin_edit_referral_person_wap.php
+END
+ehr_indv_edit_his_antenatal_postpartum_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_his_antenatal_postpartum_html.php
+END
+emr_search_patient_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/80/trunk/thirra/app_thirra/views/ehr/emr_search_patient_html.php
+END
+ehr_gem_select_age_group_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/208/trunk/thirra/app_thirra/views/ehr/ehr_gem_select_age_group_html.php
+END
+sidebar_ehr_patients_conslt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/238/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_patients_conslt_html.php
+END
+ajax_get_atc_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/thirra/!svn/ver/202/trunk/thirra/app_thirra/views/ehr/ajax_get_atc_info.php
+END
+ehr_orders_edit_labsupplier_info_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_labsupplier_info_wap.php
+END
+ehr_edit_antenatal_postpartum_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_edit_antenatal_postpartum_html.php
+END
+ehr_util_list_addrvillages_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrvillages_wap.php
+END
+ehr_indv_edit_history_antenatal_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_history_antenatal_html.php
+END
+ehr_orders_edit_labsupplier_info_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/162/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_labsupplier_info_html.php~
+END
+ehr_edit_reason_encounter_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/171/trunk/thirra/app_thirra/views/ehr/ehr_edit_reason_encounter_html.php
+END
+ehr_orders_listclosed_labresults_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/158/trunk/thirra/app_thirra/views/ehr/ehr_orders_listclosed_labresults_html.php~
+END
+ehr_utilities_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/221/trunk/thirra/app_thirra/views/ehr/ehr_utilities_mgt_html.php
+END
+ehr_orders_listclosed_labresults_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_orders_listclosed_labresults_html.php
+END
+footer_emr_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/footer_emr_wap.php~
+END
+ehr_util_edit_town_info_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_town_info_wap.php
+END
+ehr_util_list_drugformulary_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_list_drugformulary_html.php
+END
+emr_indv_startconsult_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/38/trunk/thirra/app_thirra/views/ehr/emr_indv_startconsult_html.php
+END
+ehr_print_prescription_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/136/trunk/thirra/app_thirra/views/ehr/ehr_print_prescription_html.php~
+END
+banner_ehr_ovrvw_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/banner_ehr_ovrvw_wap.php
+END
+ehr_phar_edit_drug_package_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/208/trunk/thirra/app_thirra/views/ehr/ehr_phar_edit_drug_package_html.php
+END
+ehr_indv_list_history_gemsessions_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/223/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_gemsessions_html.php
+END
+ehr_util_edit_diagnosis_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_diagnosis_info_html.php
+END
+ehr_pharmacy_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_pharmacy_mgt_wap.php
+END
+ehr_orders_edit_imagresult_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_imagresult_html.php
+END
+emr_edit_referral_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_edit_referral_wap.php
+END
+ehr_orders_listclosed_imagresults_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/84/trunk/thirra/app_thirra/views/ehr/ehr_orders_listclosed_imagresults_html.php~
+END
+ehr_admin_edit_systemuser_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_systemuser_html.php
+END
+ehr_patients_upload_ovv_html-old.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/177/trunk/thirra/app_thirra/views/ehr/ehr_patients_upload_ovv_html-old.php
+END
+ehr_reports_edit_reporthead_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_reports_edit_reporthead_wap.php
+END
+ehr_admin_export_logins_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_logins_html.php
+END
+ehr_orders_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/221/trunk/thirra/app_thirra/views/ehr/ehr_orders_mgt_html.php
+END
+banner_ehr_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/banner_ehr_html.php
+END
+emr_close_episode_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_close_episode_wap.php
+END
+banner_document_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/183/trunk/thirra/app_thirra/views/ehr/banner_document_html.php
+END
+ehr_indv_consult_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/ehr_indv_consult_html.php
+END
+header_xhtml1-transitional.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/header_xhtml1-transitional.php
+END
+ehr_admin_import_antenataldelivery_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_antenataldelivery_html.php~
+END
+sidebar_ehr_patients_consltNoLink_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/209/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_patients_consltNoLink_html.php
+END
+test_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/test_html.php~
+END
+sidebar_emr_patients_consltNoLink_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/119/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_consltNoLink_html.php
+END
+ehr_edit_diagnosis_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/138/trunk/thirra/app_thirra/views/ehr/ehr_edit_diagnosis_html.php~
+END
+ehr_util_edit_area_info_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/109/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_area_info_html.php~
+END
+ehr_admin_import_patients_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_patients_html.php~
+END
+ehr_reports_select_report_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/191/trunk/thirra/app_thirra/views/ehr/ehr_reports_select_report_html.php
+END
+emr_patients_upload_ovv_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/114/trunk/thirra/app_thirra/views/ehr/emr_patients_upload_ovv_html.php~
+END
+ehr_orders_edit_lab_packagetest_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/144/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_lab_packagetest_html.php~
+END
+sidebar_emr_reports_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_reports_html.php~
+END
+ehr_indv_ovv_externalmod_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/223/trunk/thirra/app_thirra/views/ehr/ehr_indv_ovv_externalmod_html.php
+END
+ehr_orders_edit_supplier_info_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/72/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_supplier_info_html.php~
+END
+ehr_admin_export_patients_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_patients_html.php
+END
+ehr_indv_refer_out2server_confirm_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/230/trunk/thirra/app_thirra/views/ehr/ehr_indv_refer_out2server_confirm_html.php
+END
+ehr_orders_list_labsuppliers_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_orders_list_labsuppliers_wap.php
+END
+ehr_orders_listclosed_imagresults_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_orders_listclosed_imagresults_html.php
+END
+ehr_reports_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/221/trunk/thirra/app_thirra/views/ehr/ehr_reports_mgt_html.php
+END
+sidebar_emr_queue_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_queue_wap.php
+END
+ehr_index_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/thirra/!svn/ver/238/trunk/thirra/app_thirra/views/ehr/ehr_index_html.php
+END
+sidebar_emr_patients_conslt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/182/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_conslt_html.php
+END
+ehr_edithist_immune_select_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_edithist_immune_select_wap.php
+END
+sidebar_emr_admin_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_admin_wap.php
+END
+ehr_admin_import_episodes_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/165/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_episodes_html.php~
+END
+emr_index_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/thirra/!svn/ver/80/trunk/thirra/app_thirra/views/ehr/emr_index_html.php
+END
+emr_edit_prescription_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_edit_prescription_wap.php
+END
+ehr_refer_export_detailsdone_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/146/trunk/thirra/app_thirra/views/ehr/ehr_refer_export_detailsdone_html.php
+END
+ehr_indv_ovv_externalmod_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/75/trunk/thirra/app_thirra/views/ehr/ehr_indv_ovv_externalmod_wap.php
+END
+ehr_edit_prescribe_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/206/trunk/thirra/app_thirra/views/ehr/ehr_edit_prescribe_html.php
+END
+ehr_util_edit_village_info_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_village_info_wap.php
+END
+ehr_util_list_diagnosiscodes_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_util_list_diagnosiscodes_html.php
+END
+ajax_get_prescription_drugtradenames.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/thirra/!svn/ver/200/trunk/thirra/app_thirra/views/ehr/ajax_get_prescription_drugtradenames.php
+END
+ehr_util_list_addrvillages_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/95/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrvillages_html.php~
+END
+ehr_search_patient_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_search_patient_html.php
+END
+sidebar_emr_orders_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/174/trunk/thirra/app_thirra/views/ehr/sidebar_emr_orders_html.php~
+END
+ehr_orders_list_imagsuppliers_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/162/trunk/thirra/app_thirra/views/ehr/ehr_orders_list_imagsuppliers_html.php~
+END
+sidebar_emr_utilities_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_utilities_wap.php
+END
+ehr_edit_prediagnosis_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/200/trunk/thirra/app_thirra/views/ehr/ehr_edit_prediagnosis_html.php
+END
+emr_reports_mgt_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_reports_mgt_wap.php
+END
+ehr_util_edit_village_info_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/78/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_village_info_html.php~
+END
+emr_index_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/thirra/!svn/ver/75/trunk/thirra/app_thirra/views/ehr/emr_index_wap.php
+END
+ehr_admin_edit_referral_centre_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_referral_centre_wap.php
+END
+ehr_orders_mgt_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/179/trunk/thirra/app_thirra/views/ehr/ehr_orders_mgt_html.php~
+END
+ajax_get_prescription_druggenericnames.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/200/trunk/thirra/app_thirra/views/ehr/ajax_get_prescription_druggenericnames.php
+END
+ehr_indv_edit_drug_allergy_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/231/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_drug_allergy_html.php
+END
+sidebar_ehr_patients_ovrvw_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/223/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_patients_ovrvw_wap.php
+END
+ehr_print_lab_result_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/158/trunk/thirra/app_thirra/views/ehr/ehr_print_lab_result_html.php
+END
+sidebar_emr_patients_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_wap.php
+END
+ehr_indv_overview_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/223/trunk/thirra/app_thirra/views/ehr/ehr_indv_overview_wap.php
+END
+ehr_edit_patient_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/227/trunk/thirra/app_thirra/views/ehr/ehr_edit_patient_html.php
+END
+header_xhtml1-strict.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/thirra/!svn/ver/204/trunk/thirra/app_thirra/views/ehr/header_xhtml1-strict.php
+END
+sidebar_emr_patients_ovrvw_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/sidebar_emr_patients_ovrvw_wap.php~
+END
+banner_emr_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/thirra/!svn/ver/87/trunk/thirra/app_thirra/views/ehr/banner_emr_html.php
+END
+ehr_past_con_details_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/200/trunk/thirra/app_thirra/views/ehr/ehr_past_con_details_html.php
+END
+ehr_phar_list_drugsuppliers_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_phar_list_drugsuppliers_html.php
+END
+emr_indv_startconsult_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_indv_startconsult_wap.php
+END
+ehr_orders_list_labsuppliers_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_orders_list_labsuppliers_html.php
+END
+ehr_indv_refer_patient_existence_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/230/trunk/thirra/app_thirra/views/ehr/ehr_indv_refer_patient_existence_html.php
+END
+banner_ehr_print_noletterhead_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/banner_ehr_print_noletterhead_html.php
+END
+ehr_phar_edit_drug_product_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/209/trunk/thirra/app_thirra/views/ehr/ehr_phar_edit_drug_product_html.php
+END
+ehr_orders_edit_labsupplier_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_orders_edit_labsupplier_info_html.php
+END
+ehr_indv_list_history_vitals_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_vitals_wap.php
+END
+test_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/test_html.php
+END
+ehr_admin_list_depts_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/219/trunk/thirra/app_thirra/views/ehr/ehr_admin_list_depts_html.php
+END
+ehr_print_referral_letter_PH_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/ehr_print_referral_letter_PH_html.php
+END
+ehr_indv_edit_his_antenatal_followup_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_indv_edit_his_antenatal_followup_html.php
+END
+sidebar_ehr_utilities_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_utilities_wap.php
+END
+ehr_util_list_addrdistricts_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_list_addrdistricts_html.php
+END
+ehr_edit_immune_select_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/107/trunk/thirra/app_thirra/views/ehr/ehr_edit_immune_select_html.php~
+END
+emr_edit_referral_html-work.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_edit_referral_html-work.php
+END
+ehr_util_edit_drugcode_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/thirra/!svn/ver/203/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_drugcode_html.php
+END
+ehr_edit_lab_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/thirra/!svn/ver/160/trunk/thirra/app_thirra/views/ehr/ehr_edit_lab_html.php~
+END
+footer_emr_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/142/trunk/thirra/app_thirra/views/ehr/footer_emr_html.php~
+END
+ehr_util_edit_district_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ehr_util_edit_district_info_html.php
+END
+ehr_edit_lab_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/thirra/!svn/ver/231/trunk/thirra/app_thirra/views/ehr/ehr_edit_lab_html.php
+END
+footer_emr_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/thirra/!svn/ver/142/trunk/thirra/app_thirra/views/ehr/footer_emr_html.php
+END
+sidebar_emr_queue_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/sidebar_emr_queue_wap.php~
+END
+ehr_admin_edit_referral_person_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/thirra/!svn/ver/208/trunk/thirra/app_thirra/views/ehr/ehr_admin_edit_referral_person_html.php
+END
+banner_ehr_conslt_wap.php~
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/131/trunk/thirra/app_thirra/views/ehr/banner_ehr_conslt_wap.php~
+END
+emr_edit_imaging_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_edit_imaging_wap.php
+END
+sidebar_ehr_reports_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/sidebar_ehr_reports_wap.php
+END
+emr_edit_prescribe_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/51/trunk/thirra/app_thirra/views/ehr/emr_edit_prescribe_wap.php
+END
+ehr_reports_edit_reporthead_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/218/trunk/thirra/app_thirra/views/ehr/ehr_reports_edit_reporthead_html.php
+END
+ehr_patients_upload_ovv_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/178/trunk/thirra/app_thirra/views/ehr/ehr_patients_upload_ovv_html.php
+END
+ehr_indv_startconsult_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/102/trunk/thirra/app_thirra/views/ehr/ehr_indv_startconsult_html.php
+END
+ehr_edit_prescription_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/206/trunk/thirra/app_thirra/views/ehr/ehr_edit_prescription_html.php
+END
+header_xhtml-mobile10.php~
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/header_xhtml-mobile10.php~
+END
+ehr_edit_antenatal_info_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/232/trunk/thirra/app_thirra/views/ehr/ehr_edit_antenatal_info_html.php
+END
+emr_newpage_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/thirra/!svn/ver/37/trunk/thirra/app_thirra/views/ehr/emr_newpage_html.php~
+END
+ehr_indv_gem_view_consult_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/209/trunk/thirra/app_thirra/views/ehr/ehr_indv_gem_view_consult_html.php
+END
+ehr_indv_list_history_lab_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/thirra/!svn/ver/162/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_lab_html.php
+END
+ehr_queue_mgt_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/thirra/!svn/ver/234/trunk/thirra/app_thirra/views/ehr/ehr_queue_mgt_html.php
+END
+ehr_print_referral_letter_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/thirra/!svn/ver/112/trunk/thirra/app_thirra/views/ehr/ehr_print_referral_letter_html.php~
+END
+ehr_admin_export_new_antenataldelivery_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/thirra/!svn/ver/172/trunk/thirra/app_thirra/views/ehr/ehr_admin_export_new_antenataldelivery_html.php~
+END
+ajax_get_diagnosis_diagnosiscode.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/200/trunk/thirra/app_thirra/views/ehr/ajax_get_diagnosis_diagnosiscode.php
+END
+ehr_indv_list_history_vitals_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/thirra/!svn/ver/229/trunk/thirra/app_thirra/views/ehr/ehr_indv_list_history_vitals_html.php
+END
+ehr_admin_import_new_antenatalinfo_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/thirra/!svn/ver/207/trunk/thirra/app_thirra/views/ehr/ehr_admin_import_new_antenatalinfo_html.php
+END
+emr_indv_consult_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/73/trunk/thirra/app_thirra/views/ehr/emr_indv_consult_wap.php
+END
+ajax_get_address_townnames.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/thirra/!svn/ver/228/trunk/thirra/app_thirra/views/ehr/ajax_get_address_townnames.php
+END
+emr_edit_patient_wap.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/thirra/!svn/ver/93/trunk/thirra/app_thirra/views/ehr/emr_edit_patient_wap.php
+END
+ehr_phar_listclosed_prescriptions_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/thirra/!svn/ver/205/trunk/thirra/app_thirra/views/ehr/ehr_phar_listclosed_prescriptions_html.php
+END
+ajax_get_indvoverview_medication.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/thirra/!svn/ver/201/trunk/thirra/app_thirra/views/ehr/ajax_get_indvoverview_medication.php
+END
+ehr_indv_consult_html.php~
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/thirra/!svn/ver/183/trunk/thirra/app_thirra/views/ehr/ehr_indv_consult_html.php~
+END
+ehr_gem_list_submodules_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/thirra/!svn/ver/230/trunk/thirra/app_thirra/views/ehr/ehr_gem_list_submodules_html.php
+END

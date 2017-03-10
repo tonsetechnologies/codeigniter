@@ -1,0 +1,350 @@
+/********************************************************************
+* Description: WAP style sheet for THIRRA
+* Author:      Jason Tan Boon Teck
+********************************************************************/
+
+/* the styles for the body tag */
+    body{
+	    background-color:white;
+	    font-family: Verdana, Arial, sans-serif;
+	    margin:0;
+	    padding:0;
+    }
+
+    body.html{
+	    background-color:#cddeff;
+	    font-family: Verdana, Arial, sans-serif;
+	    font-size:1.2em;
+	    margin:0;
+	    padding:0;
+    }
+
+    body.wap{
+	    background-color:#ddedff;
+	    font-family: Verdana, Arial, sans-serif;
+	    font-size:1.0em;
+	    margin:0;
+	    padding:0;
+    }
+
+    body.ovrvw{
+	    background-color:#ffeeee;
+	    font-family: Verdana, Arial, sans-serif;
+	    font-size:1.2em;
+	    margin:0;
+	    padding:0;
+    }
+
+    body.print{
+    }
+
+    body.conslt{
+	    background-color:#eeffee;
+	    font-family: Verdana, Arial, sans-serif;
+	    font-size:1.2em;
+	    margin:0;
+	    padding:0;
+    }
+
+    body.hosp{
+    }
+
+    body.dept{
+    }
+
+    fieldset {
+    }
+
+    legend {
+    }
+
+
+/* the styles for the div tags that divide the page into sections */
+    #banner{
+
+    }
+
+    #banner a {
+    }
+
+    #banner a:hover {
+    }
+     
+    #banner_table{
+        padding:0px;
+        height:auto;
+        border-bottom: 1px solid gray;
+     }
+
+    #patientinfo{
+	    position: absolute;
+	    top: 1px;
+	    font-size:0.9em;
+	    color: white;
+    }
+
+    #sidebar{
+    	position:relative; 
+        float:top;
+        margin-top:3px;
+        margin-left:3px;
+    /*	
+        left: 0px; 
+	    width: 107px;
+    	top: 10px;
+    */
+	    padding: 0px 1px 1px 5px;
+        border: 1px solid black;
+	    background-color: #FFFFFF;
+	    font-size:0.9em;
+    }
+
+
+    #content{
+    }
+
+    #print_content{
+    }
+
+    #main{
+    }
+
+    #header{
+    }
+
+    #footer{
+        clear:both;
+        font-size:0.6em;
+    }
+
+    table.line {
+    }
+
+    table.tablebg_blue td{
+        vertical-align: top;
+	    background-color: #FAFAFF;
+    }
+
+    table.valigntop td{
+        vertical-align: top;
+    }
+
+    td.banner {
+	    background-color: #554513;
+	    font-family: Verdana, Arial, sans-serif;
+	    font-size:0.6em;
+	    color: #ffff44;
+    }
+
+    td.banner_button_enabled {
+        text-align: center;
+	    color: black;
+    }
+
+    td.banner_button_disabled {
+        text-align: center;
+	    color: gray;
+    }
+
+/* the styles for the XHTML elements */
+    h1 {
+	    font-size:1.5em;
+        margin-top:0.5em;
+        margin-bottom:0.5em;
+    }
+
+    h2{
+	    font-size:1.3em;
+        margin-top:0.5em;
+        margin-bottom:0.5em;
+    }
+
+    h3{
+	    font-size:1.1em;
+    }
+
+    h4{
+    }
+
+    p,li,td{
+    }
+
+    div.error{
+	    font-size:1.0em;
+	    color:#ff0000;
+    }
+
+    a,a:link{
+    }
+
+    a:hover{
+    }
+
+     
+    #nav{
+    }
+
+    #nav ul{
+    }
+
+    #nav ul li.cat{
+    }
+
+    #nav ul li.subcat{
+    }
+
+    #nav li.cat a {
+    }
+
+    #nav li.subcat a {
+    }
+	
+	
+    #nav li.subcat a:hover {
+    }
+
+    #nav li.cat a:hover {
+    }
+     
+
+     
+    .section{
+    /*
+        width:800px;
+    */
+        margin: 1px;
+        padding: 1px;
+        border: 1px solid black;
+        background-color:#fcfcff;
+
+    }
+
+    .sidebar_l1{
+    /*	position: relative;
+        float:left;
+    	top: 10px; */
+        display: inline;
+        margin-top:6px;
+        margin-left:5px;
+	    font-size:0.9em;
+	    background-color: #FFFFFF;
+    }
+
+
+    .overviewblock{
+    /*	top: 10px; */
+        margin-top:5px;
+        margin-left:1px;
+    /*	left: 0px; 
+	    width: 500px;*/
+	    padding: 0px 1px 1px 5px;
+        border: 1px solid black;
+	    font-size:0.9em;
+        background-color:#fffcfc;
+    }
+
+    .episodeblock{
+    /*	top: 10px; */
+        margin-top:1px;
+        margin-left:1px;
+        margin-bottom:1px;
+    /*	left: 0px; */
+	    /*width: 100px; */
+	    padding: 0px 1px 1px 5px;
+        border: 1px solid black;
+	    font-size:0.9em;
+        background-color:#fcfffc;
+    }
+
+    .block_title{
+	    font-size:1.15em;
+	    text-decoration:underline;
+    }
+
+    .block_title_ovv{
+	    font-size:1.1em;
+        margin-left:-5px;
+	    padding-left: 5px;
+	    text-decoration:none;
+	    background-color: BurlyWood;
+	    color: black;    
+    }
+    /*
+	    background-color: Sienna;
+	    color: white;    
+    */
+
+    .block_title_ovv > a{
+	    color: black;    
+	    text-decoration:none;
+    }
+
+    .block_title_con{
+	    font-size:1.0em;
+        margin-left:-5px;
+	    padding-left: 5px;
+	    text-decoration:none;
+	    background-color: PaleGreen;
+	    color: black;    
+    }
+    /*
+	    background-color: SeaGreen;
+	    color: white;    
+    */
+    .block_title_con > a{
+	    text-decoration:none;
+	    color: black;    
+    }
+
+    .simple_button_yellow{
+	    font-size:1.1em;
+        margin-left:5px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    text-decoration:none;
+        border: 8px;
+        border-style: outset;
+	    background-color: Yellow;
+	    color: silver;    
+    }
+
+    .flashdata{
+	    background-color: yellow;
+	    color: red;    
+    }
+
+    .validation_errors{
+	    background-color: red;
+	    color: yellow;    
+    }
+
+    .debug{
+        border: 1px solid black;
+	    background-color:#ffff88;
+    }
+
+    .chart{
+	    background-color: #ffffff;
+	    padding-left: 5px;
+    }
+
+    .chart_height_low{
+        height:400px;
+    }
+
+    .chart_height_high{
+        height:800px;
+    }
+
+    .chart_width_narrow{
+     	width:500px;
+    }
+
+    .chart_width_broad{
+     	width:900px;
+    }
+
+    .message{
+    }
+
+

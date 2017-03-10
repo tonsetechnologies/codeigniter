@@ -1,0 +1,96 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Initial Developer of the Original Code is
+ * Primary Care Doctors Organisation Malaysia.
+ * Portions created by the Initial Developer are Copyright (C) 2010 - 2011
+ * the Initial Developer and IDRC. All Rights Reserved.
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+echo "\n\n<div id='content'>";
+if($debug_mode) {
+    echo "\n<div class='debug'>";
+    print "Session info = " . $_SESSION['thirra_mode'];
+    print "<br />User = " . $_SESSION['username'];
+	echo '<pre>';
+    echo "\n<br />print_r(supplier_info)=<br />";
+		print_r($supplier_info);
+    echo "\n<br />print_r(invoices_list)=<br />";
+		print_r($invoices_list);
+	echo '</pre>';
+    echo "\n<br />supplier_type=".$supplier_type;
+    echo "\n</div>";
+}
+
+echo "\n\n<div id='page_title' align='center'><h1>".$this->lang->line('patients_list_drug_packages_html_title')."</h1></div>";
+
+echo "\n<div class='flashdata'>".$this->session->flashdata('data_activity')."</div>";
+
+
+echo "\n<table class='frame' width='100%' align='center'>";
+
+
+echo "\n</table>";
+
+
+echo "\n<fieldset>";
+echo "<legend>PACKAGES LIST</legend>";
+//echo anchor('ehr_pharmacy/phar_edit_drug_package/new_package/new_package', "<strong>Add New Package</strong>");
+//echo "\n<br /><br />";
+
+echo "\n<table>";
+echo "\n<tr>";
+    echo "\n<th>No.</th>";
+    echo "\n<th width='100'>Code</th>";
+    echo "\n<th width='200'>Package Name</th>";
+    echo "\n<th width='250'>Description</th>";
+    echo "\n<th width='250'>Remarks</th>";
+echo "</tr>";
+if(isset($packages_list)){
+    $rownum = 1;
+    foreach ($packages_list as $package_item){
+        echo "\n<tr>";
+        echo "\n<td valign='top'>".$rownum.".</td>";
+        echo "\n<td valign='top'>".$package_item['package_code']."</td>";
+        echo "\n<td valign='top'>".anchor('ehr_consult_prescribe/edit_drug_package/edit_package/'.$package_item['drug_package_id'].'/'.$patient_id.'/'.$summary_id, $package_item['package_name'])."</td>";
+        echo "\n<td valign='top'>".$package_item['description']."</td>";
+        echo "\n<td valign='top'>".$package_item['package_remarks']."</td>";
+        echo "\n</tr>";
+        $rownum++;
+    }//endforeach;
+}
+echo "</table>";
+echo "\n<br />";
+echo "\n</fieldset>";
+
+
+
+
+
+?>
+    <script  type="text/javascript">
+        var $ = function (id) {
+            return document.getElementById(id);
+        }
+
+        function select_level_two(){
+            $("consultation_form").status.value="Unfinished";
+            $("level_two").selectedIndex = -1;
+            $("consultation_form").submit.click();
+        }
+
+      </script>
+
+

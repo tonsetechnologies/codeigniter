@@ -1,0 +1,94 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Initial Developer of the Original Code is
+ * Primary Care Doctors Organisation Malaysia.
+ * Portions created by the Initial Developer are Copyright (C) 2009-2010
+ * the Initial Developer and IDRC. All Rights Reserved.
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+echo "\n\n<div id='content_nosidebar'>";
+if($debug_mode) {
+    echo "\n<div class='debug'>";
+    print "Session info = " . $_SESSION['thirra_mode'];
+    print "<br />User = " . $_SESSION['username'];
+    echo "\n</div>";
+}
+
+echo "\n\n<div id='page_title' align='center'><h1>".$this->lang->line('patients_search_patient_html_title')."</h1></div>";
+
+echo "\n\n<div id='patients_new_patient' class='section'>";
+    echo "<p><strong>";
+    echo anchor('ehr_individual/edit_patient/new_patient/new_patient', 'Add New Patient', 'target="_blank"');
+    echo "</strong>, if not listed below.";
+    echo "</p>";
+
+    echo form_open('ehr_patient/search_patient');
+    echo "\n<input type='text' name='patient_name' value='' size='50' />";
+    echo "\n<br /><input type='radio' name='search_field' value='name' checked='checked' >Name</input>";
+    echo "\n<input type='radio' name='search_field' value='ic_no' >NRIC</input>";
+    echo "\n<input type='radio' name='search_field' value='clinic_reference_number' >Clinic Reference</input>";
+    echo "\n<br /><input type='submit' value='Search' />";
+    echo "\n</form>";
+echo "</div>";
+
+echo "\n\n<div id='patients_found_patients' class='section'>";
+    echo "Found the following patients with the <strong>".$search_field."</strong> containing <strong>'$name_filter'</strong>:";
+
+    echo "\n<p><table border='1' class='line' cellpadding='2'>";
+    echo "<tr>";
+        echo "<th>Edit Patient</th>";
+        echo "<th>Name</th>";
+        echo "<th>Clinic Ref No.</th>";
+        echo "<th>Gender</th>";
+        echo "<th>Birth Date</th>";
+        echo "<th>IC No.</th>";
+        echo "<th>Other IC No.</th>";
+    echo "</tr>";
+    if(count($patlist) > 0){
+        foreach ($patlist as $patient){
+            echo "<tr>";
+                echo "\n<td>";
+            	    echo anchor('ehr_individual/individual_overview/'.$patient['patient_id'], 'Overview Sheet', 'target="_blank"');
+	            echo "</td>"; 
+                echo "\n<td>";
+                    echo $patient['name'];
+	            echo "</td>"; 
+                echo "\n<td>";
+                    echo $patient['clinic_reference_number'];
+	            echo "</td>"; 
+                echo "\n<td>";
+                    echo $patient['gender'];
+	            echo "</td>"; 
+                echo "\n<td>";
+                    echo $patient['birth_date'];
+	            echo "</td>"; 
+                echo "\n<td>";
+                    echo $patient['ic_no'];
+	            echo "</td>"; 
+                echo "\n<td>";
+                    echo $patient['ic_other_no'];
+	            echo "</td>"; 
+            echo "</tr>";
+        }
+        //endforeach;
+    } else {
+        echo "\n<tr><td>None found</td></tr>";
+    } //endif(count($patlist) > 0)
+    echo "</table></p>";
+
+echo "</div>";
+
+echo "</div>"; //id=body

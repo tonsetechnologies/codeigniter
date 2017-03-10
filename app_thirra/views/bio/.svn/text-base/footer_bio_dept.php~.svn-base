@@ -1,0 +1,4 @@
+<?php
+echo "\n<hr />";
+echo "<p><div align='center'>A PANACeA project</div></p>";
+echo "</body></html>";

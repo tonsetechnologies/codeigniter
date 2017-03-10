@@ -1,0 +1,209 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Initial Developer of the Original Code is
+ * Primary Care Doctors Organisation Malaysia.
+ * Portions created by the Initial Developer are Copyright (C) 2010
+ * the Initial Developer and IDRC. All Rights Reserved.
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+echo "\n\n<div id='content'>";
+if($debug_mode) {
+    echo "\n<div class='debug'>";
+    print "Session info = " . $_SESSION['thirra_mode'];
+    print "<br />User = " . $_SESSION['username'];
+	echo '<pre>';
+    echo "\n<br />print_r(patient_info)=<br />";
+		//print_r($patient_info);
+    echo "\n<br />print_r(patcon_info)=<br />";
+		print_r($patcon_info);
+    echo "\n<br />print_r(diagnosis_list)=<br />";
+		print_r($diagnosis_list);
+    echo "\n<br />print_r(diagnosis_filter)=<br />";
+		print_r($diagnosis_filter);
+    if(isset($diagnosis_chosen)){
+        echo "\n<br />print_r(diagnosis_chosen)=<br />";
+		    print_r($diagnosis_chosen);
+    }
+	echo '</pre>';
+    echo "\n<br />form_id=".$form_id;
+    echo "\n<br />diagnosis_id=".$diagnosis_id;
+    echo "\n<br />diagnosis=".$diagnosis;
+    echo "\n</div>";
+}
+
+echo "\n\n<div id='page_title' align='center'><h1>".$this->lang->line('patients_edit_diagnoses_html_title')."</h1></div>";
+
+echo "\n\n<div id='current_diagnosis' class='episodeblock'>";
+echo "\n<table>";
+echo "\n<tr>";
+    echo "\n<th>Code</th>";
+    echo "\n<th width='400'>Title</th>";
+    echo "\n<th>Type</th>";
+    echo "\n<th>Notes</th>";
+echo "</tr>";
+if(count($diagnosis_list) > 0){
+    foreach ($diagnosis_list as $diagnosis_item){
+        echo "\n<tr>";
+        echo "<td>".anchor('ehr_consult_diagnosis/edit_diagnosis/edit_diagnosis/'.$patient_id.'/'.$summary_id.'/'.$diagnosis_item['diagnosis_id'], $diagnosis_item['dcode1ext_code'])."</td>";
+        echo "<td width='400'>".$diagnosis_item['full_title']."</td>";
+        echo "<td>".$diagnosis_item['diagnosis_type']."</td>";
+        echo "<td>".$diagnosis_item['diagnosis_notes']."</td>";
+        $delete_link    =   base_url()."index.php/ehr_consult_diagnosis/consult_delete_diagnosis/".$patient_id."/".$summary_id."/".$diagnosis_item['diagnosis_id'];
+        echo "\n<td><a href=\"javascript:deleteRecord('remove','Diagnosis:".$diagnosis_item['full_title']."','".$delete_link ."');\">delete</a>";
+        //echo "\n<td>".anchor('ehr_consult_diagnosis/consult_delete_diagnosis/'.$patient_id.'/'.$summary_id.'/'.$diagnosis_item['diagnosis_id'], 'delete')."</td>";
+        echo "</tr>";
+    }//endforeach;
+} else {
+    echo "\n<tr><td>None recorded</td></tr>";
+} //endif(count($diagnosis_list) > 0)
+echo "</table>";
+echo "</div>"; //id='current_diagnosis'
+
+echo "\n\n<div id='patients_new_diagnosis' class='section'>";
+    $attributes =   array('class' => 'select_form', 'id' => 'diagnosis_search');
+    echo form_open('ehr_consult_diagnosis/edit_diagnoses/'.$patient_id, $attributes);
+    echo form_hidden('form_purpose', $form_purpose);
+    echo form_hidden('form_id', "search");
+    echo form_hidden('now_id', $now_id);
+    echo form_hidden('patient_id', $patient_id);
+    echo form_hidden('summary_id', $summary_id);
+    echo form_hidden('diagnosis_id', $diagnosis_id);
+    echo form_hidden('diagnosis_type', $diagnosis_type);
+    echo form_hidden('diagnosis_notes', $diagnosis_notes);
+    echo form_hidden('diagnosis', $diagnosis);
+
+    echo "\nSearch term must be at least 3 characters long.";
+    echo "\n<br /><input type='text' name='diagnosis_term1' value='' size='50' />";
+    echo "\n<input type='submit' value='Search' />";
+    echo "\n</form>";
+    echo "\nSearched diagnosis codes for <strong>".$diagnosis_term1."</strong>. Found ".count($diagnosis_filter).".";
+echo "</div>";
+
+$attributes =   array('class' => 'select_form', 'id' => 'diagnosis_form');
+echo form_open('ehr_consult_diagnosis/edit_diagnoses/'.$patient_id, $attributes);
+
+echo form_hidden('form_purpose', $form_purpose);
+echo form_hidden('form_id', "select");
+echo form_hidden('diagnosis_term1', "none");
+echo form_hidden('now_id', $now_id);
+echo form_hidden('patient_id', $patient_id);
+echo form_hidden('summary_id', $summary_id);
+echo form_hidden('diagnosis_id', $diagnosis_id);
+
+echo "\n<table class='header' width='100%' align='center'>";
+echo "<tr><td><b>Diagnosis</b></td></tr>";
+echo "</table>";
+echo "\n<table class='frame' width='100%' align='center'>";
+echo "\n<tr>";
+    echo "<td width='25%'>Diagnosis <font color='red'>*</font></td>";
+    echo "\n<td colspan='2' class='red'>";
+        echo "\n<select name='diagnosis' class='normal' id='diagnosis'>";
+            echo "\n<option value='' >Please select one</option>";
+            if($diagnosis <> "") {
+            echo "\n<option value='".$diagnosis_chosen['dcode1ext_code']."' ";
+            //if(isset($diagnosis)) {
+                echo "selected='selected'";
+            echo ">[".$diagnosis_chosen['dcode1ext_code']."] &nbsp;&nbsp;&nbsp;".$diagnosis_chosen['full_title']."</option>";
+            }
+        echo "\n<optgroup label='Searched'>";
+            foreach($diagnosis_filter as $dcode1ext)
+            {
+	            echo "\n<option value='".$dcode1ext['dcode1ext_code']."' ";
+                /*
+                if(isset($diagnosis)) {
+                    echo ($diagnosis==$dcode1ext['dcode1ext_code'] ? "selected='selected'" : "");
+                }
+                */
+                echo ">[".$dcode1ext['dcode1ext_code']."] &nbsp;&nbsp;&nbsp;".$dcode1ext['full_title']."</option>";
+            }
+        echo "\n</optgroup>";
+        echo "\n<optgroup label='Common'>";
+            foreach($diagnosis_common as $dcode1ext)
+            {
+	            echo "\n<option value='".$dcode1ext['dcode1ext_code']."' ";
+                /*
+                if(isset($diagnosis)) {
+                    echo ($diagnosis==$dcode1ext['dcode1ext_code'] ? "selected='selected'" : "");
+                }
+                */
+                echo ">".$dcode1ext['full_title']." &nbsp;&nbsp;&nbsp;[".$dcode1ext['dcode1ext_code']."]</option>";
+            }
+        echo "\n</optgroup>";
+        echo "</select>";
+
+    echo "</td>";
+echo "</tr>";
+echo "\n<tr>";
+    echo "<td width='25%'>Type <font color='red'>*</font></td>";
+    echo "\n<td>";
+        echo "<select class='normal' name='diagnosis_type'>";
+               
+            echo "<option value='Primary' ".set_select('diagnosis_type','Primary').">Primary</option>";
+            echo "<option value='Secondary' ".set_select('diagnosis_type','Secondary').">Secondary</option>";
+        echo "</select>";
+
+    echo "</td>";
+echo "</tr>";
+echo "\n<tr>";
+    echo "<td width='25%' valign='top'>Further Elaboration on Diagnosis <font color='red'>*</font></td>";
+    echo "\n<td>";
+        echo form_error('diagnosis_notes');
+        echo "<textarea class='normal' name='diagnosis_notes' value='".set_value('diagnosis_notes',$diagnosis_notes)."' cols='40' rows='4'></textarea>";
+    echo "</td>";
+echo "</tr>";
+
+echo "</table>";
+
+echo "<br />";
+echo "<center>";
+    echo "<input class='button' type='submit' name='submit' value='Enter Diagnosis' />";
+echo "</center>";
+echo "<input type='hidden' name='status' value='Finished' />";
+echo "<input type='hidden' name='bookingId' value='1196092858' />";
+
+echo "</form>";
+?>
+<br />
+
+    <script  type="text/javascript">
+        var $ = function (id) {
+            return document.getElementById(id);
+        }
+
+        function selectDiagnosisCategory(){
+            $("diagnosis_form").status.value="Unfinished";
+            $("diagnosisCategory").selectedIndex = -1;
+            $("diagnosis").selectedIndex = -1;
+            $("diagnosis2").selectedIndex = -1;
+            $("diagnosis_form").submit.click();
+        }
+
+        function selectDiagnosis(){
+            $("diagnosis_form").status.value="Unfinished";
+            $("diagnosis").selectedIndex = -1;
+            $("diagnosis2").selectedIndex = -1;
+            $("diagnosis_form").submit.click();
+        }
+
+         function selectDiagnosis2()
+         {
+            $("diagnosis_form").status.value="Unfinished";
+            $("diagnosis2").selectedIndex = -1;
+            $("diagnosis_form").submit.click();
+         }
+      </script>
+
+

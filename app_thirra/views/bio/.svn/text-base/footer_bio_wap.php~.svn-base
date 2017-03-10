@@ -1,0 +1,3 @@
+<?php
+echo "<p>A PANACeA project</p>";
+echo "</body></html>";

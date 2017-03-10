@@ -1,0 +1,43 @@
+9
+
+dir
+251
+https://thirra.svn.sourceforge.net/svnroot/thirra/trunk/thirra/app_thirra/language
+https://thirra.svn.sourceforge.net/svnroot/thirra
+
+
+
+2011-11-01T09:16:09.123049Z
+234
+jasontn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+24e1ba0c-de5d-4729-9ed5-f8a2b56cb0c0
+
+malay
+dir
+
+nepali
+dir
+
+english
+dir
+
+sinhalese
+dir
+
+tagalog
+dir
+

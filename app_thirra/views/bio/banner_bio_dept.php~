@@ -1,0 +1,23 @@
+<?php
+
+echo "\n<body class='dept'>";
+echo "\n<table width='100%' border='0'>";
+echo "<tr>";
+    echo "\n<td width='100%' align='center' class='banner'>";
+    echo "\n<img src='".base_url()."/images/THIRRA_banner.png' alt='THIRRA banner' />";
+    echo "\n</td>";
+echo "\n</tr>";
+echo "</table>";
+echo "\n<table>";
+echo "<tr>";
+    echo "\n<td width='150'><strong>";
+    echo anchor('bio', 'Home');
+    echo "</strong></td>";
+    echo "\n<td width='150'><strong>Manage Cases</strong></td>";
+    echo "\n<td width='150'><strong>";
+    echo anchor('bio/reports_management', 'Print Reports', "target='_blank'");
+    echo "</strong></td>";
+    echo "\n<td width='150'><strong>Admin</strong></td>";
+echo "\n</tr>";
+echo "</table>";
+

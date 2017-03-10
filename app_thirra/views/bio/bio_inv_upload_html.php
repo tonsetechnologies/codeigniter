@@ -1,0 +1,58 @@
+<?php
+
+echo "\n<div align='center'><h1>THIRRA - Upload Investigation Pictures</h1></div>";
+
+echo anchor('bio_phi/edit_inv/edit_inv/'.$patient_id.'/'.$notification_id.'/'.$bio_case_id.'/'.$bio_inv_id, 'Return to Investigation Form');
+
+echo "<p></p>";
+
+echo form_open_multipart('bio_phi/upload_pics_inv/'.$patient_id.'/'.$notification_id.'/'.$bio_case_id.'/'.$bio_inv_id);
+echo form_hidden('bio_inv_id', $bio_inv_id);
+echo form_hidden('bio_case_id', $bio_case_id);
+echo form_hidden('notification_id', $notification_id);
+echo form_hidden('patient_id', $patient_id);
+
+echo "PICTURE INFORMATION";
+echo "\n<table>";
+
+echo "\n<tr><td>Reference</td><td>";
+echo "<input type='text' name='bio_pic_ref' size='30' /> </td></tr>";
+
+echo "\n<tr><td>Sort order</td><td>";
+echo "<input type='text' name='bio_pic_sort' size='4' /> </td></tr>";
+
+echo "\n<tr><td>Title</td><td>";
+echo "<input type='text' name='bio_pic_title' size='30' /> </td></tr>";
+
+echo "\n<tr><td>Description</td><td>";
+echo "<input type='text' name='bio_pic_descr' size='80' /> </td></tr>";
+
+echo "\n<tr><td>Remarks</td><td>";
+echo "<input type='text' name='pics_remarks' size='80' /> </td></tr>";
+
+echo "\n<tr><td>Locate file</td>";
+echo "<td><input type='file' name='userfile' size='40' /></td></tr>";
+
+echo "</table>";
+echo "<br /><br />";
+
+echo "<div align='center'><input type='submit' value='Upload' /></div>";
+
+echo "</form>";
+if($bio_inv_id == "new_inv"){
+    
+} else {
+    echo "<table>";
+    foreach ($bio_pics_list as $pic) {
+        echo "\n<tr><td>&nbsp;</td><td>";
+        echo "<a href='".$pics_url."/INV".$pic['bio_pics_id'].".jpg' target='_blank'>View ";
+        echo "<img src='".$pics_url."/INV".$pic['bio_pics_id']."_thumb.jpg' alt='image'></a> ";
+        echo "\n </td><td> ".$pic['bio_pic_ref'];
+        echo " </td><td> <strong>".$pic['bio_pic_title'];
+        echo " </strong></td><td> ".$pic['bio_pic_descr'];
+        echo "</td></tr>";
+    }
+    echo "</table>";
+}
+
+

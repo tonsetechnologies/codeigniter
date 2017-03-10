@@ -1,0 +1,13 @@
+<?php
+
+if($debug_mode) {
+    print "Session info = " . $_SESSION['thirra_mode'];
+    print "<br />User = " . $_SESSION['username'];
+    echo $device_mode;
+}
+
+echo "\n<div align='center'><h1>".$this->lang->line('index_html_title')."</h1></div>";
+echo "<p>";
+echo "</p>";
+
+

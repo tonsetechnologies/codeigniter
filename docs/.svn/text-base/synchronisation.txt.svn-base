@@ -1,0 +1,59 @@
+Current Synchronisation Steps
+
+Example of filesystem:
+
+/var/www/quezon
+/var/www/quezon-uploads
+/var/www/nb1
+/var/www/nb1-uploads
+/var/www/nb2
+/var/www/nb2-uploads
+/var/www/nb3
+/var/www/nb3-uploads
+
+Make sure that the xxx-uploads directory has exact structure as latest THIRRA build.
+
+
+1. Backup netbook's db
+2. Transfer netbook's psql to server
+3. Restore netbook's db on the server
+4. Backup main db
+5. Create next generation of main db using latest backup (#4)
+6. Reconfigure database.php to use next generation db
+7. Export netbook's patients to XML file
+8. Export netbook's consultations to XML file
+9. Export netbook's antenatal to XML file
+10. Export netbook's histories to XML file
+11. Copy all XML files into respective import folder of main app from export folders
+12. Import patients XML files into main app
+13. Import consultations XML files into main app
+14. Import antenatal XML files into main app
+15. Import histories XML files into main app
+16. Backup master db (now best seed copy)
+17. Upgrade master db schema if needed
+18. Add/Edit any other data in master db
+19. Backup master db for cloning
+20. Copy master psql to netbook
+21. Create new db in netbook for latest generation
+22. Restore from master psql
+23. Configure database.php to new db
+24. Reconfigure pgsql-dump.sh to new db (netbooks and server)
+25. Change netbooks consultation sequence numnbers in sequence_numbers table
+
+
+
+Example of pre-synch dbs:
+quezon-02
+quezon-02-nb1-0
+quezon-02-nb2-0
+quezon-02-nb3-0
+
+Example of post-synch dbs:
+quezon-03
+quezon-03-nb1-0
+quezon-03-nb2-0
+quezon-03-nb3-0
+
+
+
+
